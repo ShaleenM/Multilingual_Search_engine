@@ -1,0 +1,614 @@
+2015-11-16 18:12:48.470 INFO  (main) [   ] o.e.j.u.log Logging initialized @900ms
+2015-11-16 18:12:48.883 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-11-16 18:12:48.897 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-11-16 18:12:48.899 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/home/padidelavamshikrishna/solr/solr-5.3.0/server/contexts/] at interval 0
+2015-11-16 18:12:50.010 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-11-16 18:12:50.046 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@596e1d6b{/solr,file:/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp/,STARTING}{/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-11-16 18:12:50.104 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=698129@aa711
+2015-11-16 18:12:50.173 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-11-16 18:12:50.173 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr
+2015-11-16 18:12:50.181 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/'
+2015-11-16 18:12:50.519 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/solr.xml
+2015-11-16 18:12:50.675 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr
+2015-11-16 18:12:50.731 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1830487532
+2015-11-16 18:12:50.731 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/]
+2015-11-16 18:12:50.731 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/lib
+2015-11-16 18:12:50.731 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/lib).
+2015-11-16 18:12:50.759 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-11-16 18:12:51.487 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-11-16 18:12:51.491 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-11-16 18:12:51.492 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-11-16 18:12:51.504 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-11-16 18:12:51.504 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-11-16 18:12:51.595 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr
+2015-11-16 18:12:51.631 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=projb, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb, absoluteInstDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/, dataDir=data/}
+2015-11-16 18:12:51.632 INFO  (main) [   ] o.a.s.c.CoresLocator Found core projb in /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/
+2015-11-16 18:12:51.632 INFO  (main) [   ] o.a.s.c.CoresLocator Found 1 core definitions
+2015-11-16 18:12:51.638 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/'
+2015-11-16 18:12:51.643 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/home/padidelavamshikrishna/solr/solr-5.3.0/server
+2015-11-16 18:12:51.643 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-11-16 18:12:51.675 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@596e1d6b{/solr,file:/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp/,AVAILABLE}{/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp}
+2015-11-16 18:12:51.726 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@513e5f5a{HTTP/1.1}{0.0.0.0:8983}
+2015-11-16 18:12:51.726 INFO  (main) [   ] o.e.j.s.Server Started @4157ms
+2015-11-16 18:12:51.800 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-11-16 18:12:51.812 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-11-16 18:12:51.815 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-dataimporthandler-extras-5.3.0.jar' to classloader
+2015-11-16 18:12:51.815 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-dataimporthandler-5.3.0.jar' to classloader
+2015-11-16 18:12:51.831 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-11-16 18:12:51.832 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-11-16 18:12:51.832 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-11-16 18:12:51.832 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-11-16 18:12:51.832 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-11-16 18:12:51.832 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-11-16 18:12:51.832 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-11-16 18:12:51.832 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-11-16 18:12:51.832 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-11-16 18:12:51.832 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-11-16 18:12:51.833 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-11-16 18:12:51.833 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-11-16 18:12:51.833 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-11-16 18:12:51.833 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-11-16 18:12:51.833 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-11-16 18:12:51.833 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-11-16 18:12:51.833 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-11-16 18:12:51.833 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-11-16 18:12:51.833 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-11-16 18:12:51.833 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-11-16 18:12:51.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-11-16 18:12:51.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-11-16 18:12:51.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-11-16 18:12:51.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-11-16 18:12:51.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-11-16 18:12:51.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-11-16 18:12:51.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-11-16 18:12:51.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-11-16 18:12:51.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-11-16 18:12:51.834 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-11-16 18:12:51.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-11-16 18:12:51.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-11-16 18:12:51.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-11-16 18:12:51.835 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-cell-5.3.0.jar' to classloader
+2015-11-16 18:12:51.838 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-11-16 18:12:51.838 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-11-16 18:12:51.839 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-11-16 18:12:51.839 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-11-16 18:12:51.839 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-11-16 18:12:51.839 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-11-16 18:12:51.839 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-11-16 18:12:51.839 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-11-16 18:12:51.840 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-clustering-5.3.0.jar' to classloader
+2015-11-16 18:12:51.841 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-11-16 18:12:51.841 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-11-16 18:12:51.842 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-langid-5.3.0.jar' to classloader
+2015-11-16 18:12:51.848 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-11-16 18:12:51.848 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-11-16 18:12:51.848 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-11-16 18:12:51.848 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-11-16 18:12:51.849 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-velocity-5.3.0.jar' to classloader
+2015-11-16 18:12:52.643 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-11-16 18:12:52.673 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.2.0
+2015-11-16 18:12:53.217 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-11-16 18:12:53.236 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/schema.xml
+2015-11-16 18:12:53.368 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [projb] Schema name=partb
+2015-11-16 18:12:54.082 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-11-16 18:12:54.255 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-11-16 18:12:54.282 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-11-16 18:12:54.582 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf'
+2015-11-16 18:12:54.582 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'projb' using configuration from instancedir /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/
+2015-11-16 18:12:54.583 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-11-16 18:12:54.611 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.SolrCore [[projb] ] Opening new SolrCore at [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/], dataDir=[null]
+2015-11-16 18:12:54.613 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-11-16 18:12:54.620 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.SolrCore [[projb] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-11-16 18:12:54.620 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.SolrCore [[projb] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2015-11-16 18:12:54.631 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.CachingDirectoryFactory return new directory for /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data
+2015-11-16 18:12:54.633 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.SolrCore New index directory detected: old=null new=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index/
+2015-11-16 18:12:54.634 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.CachingDirectoryFactory return new directory for /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index
+2015-11-16 18:12:54.650 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2015-11-16 18:12:54.652 INFO  (OldIndexDirectoryCleanupThreadForCore-projb) [   x:projb] o.a.s.c.SolrCore Looking for old index directories to cleanup for core projb in /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/
+2015-11-16 18:12:54.658 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2015-11-16 18:12:54.805 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-11-16 18:12:54.844 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-11-16 18:12:54.846 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-11-16 18:12:54.846 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-11-16 18:12:54.847 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-11-16 18:12:54.895 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2015-11-16 18:12:54.895 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-11-16 18:12:54.895 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-11-16 18:12:54.897 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2015-11-16 18:12:54.897 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.PluginBag requestHandler : '/suggest' created with startup=lazy 
+2015-11-16 18:12:54.897 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2015-11-16 18:12:54.897 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-11-16 18:12:54.897 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2015-11-16 18:12:54.898 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.RequestHandlers Registered paths: /admin/logging,/admin/plugins,/admin/system,/admin/segments,/admin/file,/dataimport,/admin/luke,/update,/terms,/admin/threads,/schema,/query,/replication,/analysis/field,/browse,/admin/ping,/update/json/docs,/analysis/document,/select,/admin/mbeans,/update/csv,/elevate,/get,/update/json,/update/extract,/admin/properties,/tvrh,/spell,/config,/debug/dump,/suggest
+2015-11-16 18:12:54.900 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-11-16 18:12:54.908 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-11-16 18:12:54.908 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-11-16 18:12:54.934 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-11-16 18:12:54.935 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-11-16 18:12:54.979 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@3515ace9; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+2015-11-16 18:12:54.980 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.SolrCore newest commit generation = 2
+2015-11-16 18:12:55.062 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.s.SolrIndexSearcher Opening Searcher@51205cb7[projb] main
+2015-11-16 18:12:55.084 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf
+2015-11-16 18:12:55.084 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf}
+2015-11-16 18:12:55.096 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf
+2015-11-16 18:12:55.096 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-11-16 18:12:55.103 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2015-11-16 18:12:55.109 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2015-11-16 18:12:55.115 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2015-11-16 18:12:55.117 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/elevate.xml
+2015-11-16 18:12:55.133 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-11-16 18:12:55.138 INFO  (searcherExecutor-7-thread-1-processing-x:projb) [   x:projb] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@51205cb7[projb] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C3440)))}
+2015-11-16 18:12:55.150 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-11-16 18:12:55.150 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-11-16 18:12:55.192 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.u.VersionInfo Found MAX value 1518012312549588992 from Terms for _version_ in index
+2015-11-16 18:12:55.196 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.u.UpdateLog Took 46 ms to seed version buckets with highest version 1518012312549588992
+2015-11-16 18:12:55.196 INFO  (coreLoadExecutor-6-thread-1) [   x:projb] o.a.s.c.CoreContainer registering core: projb
+2015-11-16 18:12:55.226 INFO  (searcherExecutor-7-thread-1-processing-x:projb) [   x:projb] o.a.s.c.S.Request [projb] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=85 
+2015-11-16 18:12:55.227 INFO  (searcherExecutor-7-thread-1-processing-x:projb) [   x:projb] o.a.s.c.SolrCore QuerySenderListener done.
+2015-11-16 18:12:55.227 INFO  (searcherExecutor-7-thread-1-processing-x:projb) [   x:projb] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2015-11-16 18:12:55.227 INFO  (searcherExecutor-7-thread-1-processing-x:projb) [   x:projb] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2015-11-16 18:12:55.227 INFO  (searcherExecutor-7-thread-1-processing-x:projb) [   x:projb] o.a.s.c.SolrCore [projb] Registered new searcher Searcher@51205cb7[projb] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C3440)))}
+2015-11-16 18:13:13.243 INFO  (qtp303791137-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1447697589695&wt=json} status=0 QTime=1 
+2015-11-16 18:13:13.427 INFO  (qtp303791137-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={_=1447697589796&wt=json} status=0 QTime=17 
+2015-11-16 18:13:17.032 ERROR (qtp303791137-17) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.menu-top.html]
+2015-11-16 18:13:17.033 ERROR (qtp303791137-16) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.menu-bottom.html]
+2015-11-16 18:13:17.033 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&_=1447697593314&contentType=text/html;charset%3Dutf-8} status=404 QTime=2 
+2015-11-16 18:13:17.033 INFO  (qtp303791137-17) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&_=1447697593311&contentType=text/html;charset%3Dutf-8} status=404 QTime=2 
+2015-11-16 18:13:17.151 INFO  (qtp303791137-14) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/luke params={numTerms=0&_=1447697593577&show=index&wt=json} status=0 QTime=1 
+2015-11-16 18:13:17.162 INFO  (qtp303791137-20) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/replication params={command=details&_=1447697593589&wt=json} status=0 QTime=1 
+2015-11-16 18:13:17.177 INFO  (qtp303791137-15) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/system params={_=1447697593593&wt=json} status=0 QTime=2 
+2015-11-16 18:13:17.180 ERROR (qtp303791137-19) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.html]
+2015-11-16 18:13:17.180 INFO  (qtp303791137-19) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1447697593598} status=404 QTime=0 
+2015-11-16 18:13:17.190 INFO  (qtp303791137-12) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/ping params={action=status&_=1447697593603&wt=json} status=503 QTime=0 
+2015-11-16 18:15:00.003 INFO  (qtp303791137-20) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(Russia's+intervention+in+Syria).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=48 
+2015-11-16 18:15:00.101 INFO  (qtp303791137-12) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(US+air+dropped+50+tons+of+Ammo+on+Syria).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=11 
+2015-11-16 18:15:00.195 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(The+European+Refugee+Crisis+and+Syria+Explained+animation).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=7 
+2015-11-16 18:15:00.291 INFO  (qtp303791137-14) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(Wegen+Fl?chtlingskrise\:+Angela+Merkel+st?rzt+in+Umfragen).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=5 
+2015-11-16 18:15:00.568 INFO  (qtp303791137-20) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(??+?+?????+????????+250+?????????+????????+??????).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=6 
+2015-11-16 18:15:00.654 INFO  (qtp303791137-17) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(ISIS+Kills+TOP+Iranian+General+in+Syria).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=5 
+2015-11-16 18:15:00.744 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(David+Cameron+urged+to+ensure+vulnerable+Syrian+refugees+are+settled+by+winter).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=8 
+2015-11-16 18:15:00.831 INFO  (qtp303791137-14) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(RT+@Free_Media_Hub).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=2 
+2015-11-16 18:15:00.914 INFO  (qtp303791137-20) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(#Hezbollah).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=1 
+2015-11-16 18:15:01.000 INFO  (qtp303791137-17) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(#Syria+#SALMA+#LATAKIA).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=4 
+2015-11-16 18:15:01.097 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(Greek+AFP+photojournalist+Aris+Messinis).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=7 
+2015-11-16 18:15:01.249 INFO  (qtp303791137-14) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(ASYL-FL?CHTLING+bedankt+sich+per+Video-Botschaft+bei+Til+Schweiger).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=47 
+2015-11-16 18:15:01.419 INFO  (qtp303791137-19) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(Airbnb,+Instacart,+Kickstarter+launch+campaigns+to+fund+refugee+relief).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=33 
+2015-11-16 18:15:01.564 INFO  (qtp303791137-17) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(12-year-old+#Palestinian+boy+has+died).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=15 
+2015-11-16 18:21:15.802 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(Russia's+intervention+in+Syria).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=4 
+2015-11-16 18:21:15.891 INFO  (qtp303791137-14) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(US+air+dropped+50+tons+of+Ammo+on+Syria).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=2 
+2015-11-16 18:21:15.984 INFO  (qtp303791137-19) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(The+European+Refugee+Crisis+and+Syria+Explained+animation).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=2 
+2015-11-16 18:21:16.073 INFO  (qtp303791137-17) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(Wegen+Fl?chtlingskrise\:+Angela+Merkel+st?rzt+in+Umfragen).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=2 
+2015-11-16 18:21:16.164 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(??+?+?????+????????+250+?????????+????????+??????).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=2 
+2015-11-16 18:21:16.248 INFO  (qtp303791137-14) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(ISIS+Kills+TOP+Iranian+General+in+Syria).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=2 
+2015-11-16 18:21:16.388 INFO  (qtp303791137-19) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(David+Cameron+urged+to+ensure+vulnerable+Syrian+refugees+are+settled+by+winter).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=3 
+2015-11-16 18:21:16.471 INFO  (qtp303791137-17) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(RT+@Free_Media_Hub).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=1 
+2015-11-16 18:21:16.563 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(#Hezbollah).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=1 
+2015-11-16 18:21:16.642 INFO  (qtp303791137-14) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(#Syria+#SALMA+#LATAKIA).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=1 
+2015-11-16 18:21:16.724 INFO  (qtp303791137-19) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(Greek+AFP+photojournalist+Aris+Messinis).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=1 
+2015-11-16 18:21:16.807 INFO  (qtp303791137-17) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(ASYL-FL?CHTLING+bedankt+sich+per+Video-Botschaft+bei+Til+Schweiger).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=3 
+2015-11-16 18:21:16.891 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(Airbnb,+Instacart,+Kickstarter+launch+campaigns+to+fund+refugee+relief).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=3 
+2015-11-16 18:21:16.971 INFO  (qtp303791137-14) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(12-year-old+#Palestinian+boy+has+died).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=2 
+2015-11-16 18:22:00.988 INFO  (qtp303791137-19) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(Russia's+intervention+in+Syria).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=1 
+2015-11-16 18:22:01.068 INFO  (qtp303791137-17) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(US+air+dropped+50+tons+of+Ammo+on+Syria).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=2 
+2015-11-16 18:22:01.155 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(The+European+Refugee+Crisis+and+Syria+Explained+animation).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=2 
+2015-11-16 18:22:01.253 INFO  (qtp303791137-15) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(Wegen+Fl?chtlingskrise\:+Angela+Merkel+st?rzt+in+Umfragen).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=7 
+2015-11-16 18:22:01.351 INFO  (qtp303791137-19) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(??+?+?????+????????+250+?????????+????????+??????).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=2 
+2015-11-16 18:22:01.493 INFO  (qtp303791137-17) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(ISIS+Kills+TOP+Iranian+General+in+Syria).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=7 
+2015-11-16 18:22:01.598 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(David+Cameron+urged+to+ensure+vulnerable+Syrian+refugees+are+settled+by+winter).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=16 
+2015-11-16 18:22:01.704 INFO  (qtp303791137-15) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(RT+@Free_Media_Hub).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=1 
+2015-11-16 18:22:01.803 INFO  (qtp303791137-19) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(#Hezbollah).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=1 
+2015-11-16 18:22:01.921 INFO  (qtp303791137-12) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(#Syria+#SALMA+#LATAKIA).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=20 
+2015-11-16 18:22:02.818 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(Greek+AFP+photojournalist+Aris+Messinis).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=1 
+2015-11-16 18:22:02.919 INFO  (qtp303791137-15) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(ASYL-FL?CHTLING+bedankt+sich+per+Video-Botschaft+bei+Til+Schweiger).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=3 
+2015-11-16 18:22:03.004 INFO  (qtp303791137-19) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(Airbnb,+Instacart,+Kickstarter+launch+campaigns+to+fund+refugee+relief).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=3 
+2015-11-16 18:22:03.128 INFO  (qtp303791137-12) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(12-year-old+#Palestinian+boy+has+died).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=2 
+2015-11-16 18:22:48.115 INFO  (qtp303791137-17) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(Russia's+intervention+in+Syria).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=6 
+2015-11-16 18:23:27.511 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=Russia's+intervention+in+Syria&qf=text_en+text_ru+text_de+tweet_hashtags&_=1447698203642&wt=json&defType=dismax} hits=106 status=0 QTime=9 
+2015-11-16 18:23:52.535 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=Russia's+intervention+in+Syria&qf=text_en+text_ru+text_de+tweet_hashtags&wt=json&defType=dismax} hits=106 status=0 QTime=1 
+2015-11-16 18:25:10.351 INFO  (qtp303791137-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1447698306465&wt=json} status=0 QTime=0 
+2015-11-16 18:25:10.440 INFO  (qtp303791137-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={_=1447698306545&wt=json} status=0 QTime=12 
+2015-11-16 18:25:30.031 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=Russia's+intervention+in+Syria&qf=text_en+text_ru+text_de+tweet_hashtags&_=1447698326103&wt=json&defType=dismax} hits=106 status=0 QTime=1 
+2015-11-16 18:30:53.046 INFO  (qtp303791137-17) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=Russia's+intervention+in+Syria&qf=text_en+text_ru+text_de+tweet_hashtags&wt=json&defType=dismax} hits=106 status=0 QTime=1 
+2015-11-16 18:38:10.302 INFO  (qtp303791137-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1447699086238&wt=json} status=0 QTime=0 
+2015-11-16 18:38:10.433 INFO  (qtp303791137-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={_=1447699086485&wt=json} status=0 QTime=3 
+2015-11-16 18:38:39.886 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(Russia's+intervention+in+Syria).&qf=text_en+text_ru+text_de&_=1447699115997&wt=json&defType=dismax} hits=0 status=0 QTime=1 
+2015-11-16 18:38:57.223 INFO  (qtp303791137-17) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=Russia's+intervention+in+Syria&qf=text_en+text_ru+text_de&_=1447699133336&wt=json&defType=dismax} hits=0 status=0 QTime=1 
+2015-11-16 18:39:10.481 INFO  (qtp303791137-12) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=Russia's+intervention+in+Syria&qf=tweet_hashtags&_=1447699146574&wt=json&defType=dismax} hits=106 status=0 QTime=3 
+2015-11-16 18:40:27.569 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=Russia's+intervention+in+Syria&_=1447699223510&wt=json&defType=dismax} hits=0 status=0 QTime=1 
+2015-11-16 18:40:27.570 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=Russia's+intervention+in+Syria&_=1447699223544&wt=json&defType=dismax} hits=0 status=0 QTime=3 
+2015-11-16 18:40:38.232 INFO  (qtp303791137-14) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=text:Russia's+intervention+in+Syria&_=1447699234338&wt=json&defType=dismax} hits=0 status=0 QTime=1 
+2015-11-16 18:44:21.670 ERROR (qtp303791137-16) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.menu-top.html]
+2015-11-16 18:44:21.671 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&_=1447699457740&contentType=text/html;charset%3Dutf-8} status=404 QTime=1 
+2015-11-16 18:44:21.688 ERROR (qtp303791137-13) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.menu-bottom.html]
+2015-11-16 18:44:21.688 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&_=1447699457751&contentType=text/html;charset%3Dutf-8} status=404 QTime=0 
+2015-11-16 18:44:21.761 INFO  (qtp303791137-19) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/luke params={numTerms=0&_=1447699457871&show=index&wt=json} status=0 QTime=0 
+2015-11-16 18:44:21.769 INFO  (qtp303791137-15) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/replication params={command=details&_=1447699457875&wt=json} status=0 QTime=1 
+2015-11-16 18:44:21.781 INFO  (qtp303791137-20) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/system params={_=1447699457876&wt=json} status=0 QTime=3 
+2015-11-16 18:44:21.803 ERROR (qtp303791137-12) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.html]
+2015-11-16 18:44:21.803 INFO  (qtp303791137-12) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1447699457878} status=404 QTime=0 
+2015-11-16 18:44:21.823 INFO  (qtp303791137-17) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/ping params={action=status&_=1447699457881&wt=json} status=503 QTime=0 
+2015-11-16 18:44:22.964 INFO  (qtp303791137-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={_=1447699459012&wt=json} status=0 QTime=1 
+2015-11-16 18:44:23.179 INFO  (qtp303791137-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={_=1447699459175&wt=json} status=0 QTime=0 
+2015-11-16 18:44:27.709 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrCore [projb]  CLOSING SolrCore org.apache.solr.core.SolrCore@6bf718f2
+2015-11-16 18:44:27.710 INFO  (qtp303791137-16) [   ] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=892494,transaction_logs_total_number=1}
+2015-11-16 18:44:27.710 INFO  (qtp303791137-16) [   ] o.a.s.u.SolrCoreState Closing SolrCoreState
+2015-11-16 18:44:27.710 INFO  (qtp303791137-16) [   ] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2015-11-16 18:44:27.710 INFO  (qtp303791137-16) [   ] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2015-11-16 18:44:27.728 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrCore [projb] Closing main searcher on request.
+2015-11-16 18:44:27.729 INFO  (qtp303791137-16) [   ] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2015-11-16 18:44:27.730 INFO  (qtp303791137-16) [   ] o.a.s.c.CachingDirectoryFactory looking to close /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index [CachedDir<<refCount=0;path=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index;done=false>>]
+2015-11-16 18:44:27.730 INFO  (qtp303791137-16) [   ] o.a.s.c.CachingDirectoryFactory Closing directory: /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index
+2015-11-16 18:44:27.730 INFO  (qtp303791137-16) [   ] o.a.s.c.CachingDirectoryFactory looking to close /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data [CachedDir<<refCount=0;path=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data;done=false>>]
+2015-11-16 18:44:27.730 INFO  (qtp303791137-16) [   ] o.a.s.c.CachingDirectoryFactory Closing directory: /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data
+2015-11-16 18:44:27.730 INFO  (qtp303791137-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={action=UNLOAD&_=1447699463798&core=projb&wt=json} status=0 QTime=22 
+2015-11-16 18:44:27.783 INFO  (qtp303791137-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={_=1447699463896&wt=json} status=0 QTime=0 
+2015-11-16 18:44:53.301 INFO  (qtp303791137-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=3 
+2015-11-16 18:44:53.337 INFO  (qtp303791137-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=2 
+2015-11-16 18:44:53.351 INFO  (qtp303791137-12) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={action=STATUS&core=projb&wt=json} status=0 QTime=0 
+2015-11-16 18:44:53.360 INFO  (qtp303791137-16) [   ] o.a.s.h.a.CoreAdminHandler core create command action=CREATE&wt=json&instanceDir=projb&name=projb
+2015-11-16 18:44:53.361 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=projb, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=projb, absoluteInstDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/, dataDir=data/}
+2015-11-16 18:44:53.361 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/'
+2015-11-16 18:44:53.417 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-11-16 18:44:53.418 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-11-16 18:44:53.419 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-dataimporthandler-extras-5.3.0.jar' to classloader
+2015-11-16 18:44:53.419 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-dataimporthandler-5.3.0.jar' to classloader
+2015-11-16 18:44:53.419 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-11-16 18:44:53.419 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-11-16 18:44:53.419 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-11-16 18:44:53.420 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-11-16 18:44:53.420 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-11-16 18:44:53.420 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-11-16 18:44:53.420 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-11-16 18:44:53.420 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-11-16 18:44:53.420 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-11-16 18:44:53.420 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-11-16 18:44:53.424 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-11-16 18:44:53.424 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-11-16 18:44:53.424 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-11-16 18:44:53.424 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-11-16 18:44:53.424 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-11-16 18:44:53.424 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-11-16 18:44:53.424 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-11-16 18:44:53.424 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-11-16 18:44:53.425 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-11-16 18:44:53.425 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-11-16 18:44:53.425 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-11-16 18:44:53.425 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-11-16 18:44:53.425 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-11-16 18:44:53.425 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-11-16 18:44:53.425 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-11-16 18:44:53.425 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-11-16 18:44:53.425 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-11-16 18:44:53.425 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-11-16 18:44:53.425 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-11-16 18:44:53.425 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-11-16 18:44:53.426 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-11-16 18:44:53.426 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-11-16 18:44:53.426 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-11-16 18:44:53.429 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-cell-5.3.0.jar' to classloader
+2015-11-16 18:44:53.430 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-11-16 18:44:53.430 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-11-16 18:44:53.430 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-11-16 18:44:53.430 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-11-16 18:44:53.430 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-11-16 18:44:53.430 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-11-16 18:44:53.430 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-11-16 18:44:53.430 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-11-16 18:44:53.433 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-clustering-5.3.0.jar' to classloader
+2015-11-16 18:44:53.433 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-11-16 18:44:53.433 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-11-16 18:44:53.433 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-langid-5.3.0.jar' to classloader
+2015-11-16 18:44:53.434 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-11-16 18:44:53.434 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-11-16 18:44:53.434 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-11-16 18:44:53.434 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-11-16 18:44:53.434 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-velocity-5.3.0.jar' to classloader
+2015-11-16 18:44:53.464 INFO  (qtp303791137-16) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-11-16 18:44:53.468 INFO  (qtp303791137-16) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.2.0
+2015-11-16 18:44:53.520 INFO  (qtp303791137-16) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-11-16 18:44:53.521 INFO  (qtp303791137-16) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/schema.xml
+2015-11-16 18:44:53.594 INFO  (qtp303791137-16) [   ] o.a.s.s.IndexSchema [projb] Schema name=projb
+2015-11-16 18:44:54.120 INFO  (qtp303791137-16) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-11-16 18:44:54.178 INFO  (qtp303791137-16) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-11-16 18:44:54.192 INFO  (qtp303791137-16) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-11-16 18:44:54.261 INFO  (qtp303791137-16) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf'
+2015-11-16 18:44:54.261 INFO  (qtp303791137-16) [   ] o.a.s.c.CoreContainer Creating SolrCore 'projb' using configuration from instancedir /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/
+2015-11-16 18:44:54.261 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-11-16 18:44:54.262 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.SolrCore [[projb] ] Opening new SolrCore at [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/], dataDir=[null]
+2015-11-16 18:44:54.262 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-11-16 18:44:54.262 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.SolrCore [[projb] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-11-16 18:44:54.262 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.SolrCore [[projb] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2015-11-16 18:44:54.262 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.CachingDirectoryFactory return new directory for /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data
+2015-11-16 18:44:54.262 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.SolrCore New index directory detected: old=null new=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index/
+2015-11-16 18:44:54.264 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2015-11-16 18:44:54.264 INFO  (qtp303791137-16) [   x:projb] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2015-11-16 18:44:54.269 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-11-16 18:44:54.270 INFO  (OldIndexDirectoryCleanupThreadForCore-projb) [   x:projb] o.a.s.c.SolrCore Looking for old index directories to cleanup for core projb in /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/
+2015-11-16 18:44:54.276 INFO  (qtp303791137-16) [   x:projb] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-11-16 18:44:54.277 INFO  (qtp303791137-16) [   x:projb] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-11-16 18:44:54.278 INFO  (qtp303791137-16) [   x:projb] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-11-16 18:44:54.278 INFO  (qtp303791137-16) [   x:projb] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-11-16 18:44:54.305 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2015-11-16 18:44:54.305 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-11-16 18:44:54.305 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-11-16 18:44:54.305 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2015-11-16 18:44:54.305 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.PluginBag requestHandler : '/suggest' created with startup=lazy 
+2015-11-16 18:44:54.306 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2015-11-16 18:44:54.306 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-11-16 18:44:54.306 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2015-11-16 18:44:54.306 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.RequestHandlers Registered paths: /admin/logging,/admin/plugins,/admin/system,/admin/segments,/admin/file,/dataimport,/admin/luke,/update,/terms,/admin/threads,/schema,/query,/replication,/analysis/field,/browse,/admin/ping,/update/json/docs,/analysis/document,/select,/admin/mbeans,/update/csv,/elevate,/get,/update/json,/update/extract,/admin/properties,/tvrh,/spell,/config,/debug/dump,/suggest
+2015-11-16 18:44:54.314 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-11-16 18:44:54.324 INFO  (qtp303791137-16) [   x:projb] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-11-16 18:44:54.324 INFO  (qtp303791137-16) [   x:projb] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-11-16 18:44:54.330 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-11-16 18:44:54.331 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-11-16 18:44:54.340 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.CachingDirectoryFactory return new directory for /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index
+2015-11-16 18:44:54.343 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@3515ace9; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+2015-11-16 18:44:54.343 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.SolrCore newest commit generation = 2
+2015-11-16 18:44:54.356 INFO  (qtp303791137-16) [   x:projb] o.a.s.s.SolrIndexSearcher Opening Searcher@504ff367[projb] main
+2015-11-16 18:44:54.360 INFO  (qtp303791137-16) [   x:projb] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf
+2015-11-16 18:44:54.360 INFO  (qtp303791137-16) [   x:projb] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf}
+2015-11-16 18:44:54.361 INFO  (qtp303791137-16) [   x:projb] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf
+2015-11-16 18:44:54.361 INFO  (qtp303791137-16) [   x:projb] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-11-16 18:44:54.361 INFO  (qtp303791137-16) [   x:projb] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2015-11-16 18:44:54.361 INFO  (qtp303791137-16) [   x:projb] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2015-11-16 18:44:54.361 INFO  (qtp303791137-16) [   x:projb] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2015-11-16 18:44:54.362 INFO  (qtp303791137-16) [   x:projb] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/elevate.xml
+2015-11-16 18:44:54.375 INFO  (qtp303791137-16) [   x:projb] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-11-16 18:44:54.395 INFO  (searcherExecutor-12-thread-1-processing-x:projb) [   x:projb] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@504ff367[projb] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C3440)))}
+2015-11-16 18:44:54.396 INFO  (searcherExecutor-12-thread-1-processing-x:projb) [   x:projb] o.a.s.c.S.Request [projb] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=0 
+2015-11-16 18:44:54.396 INFO  (searcherExecutor-12-thread-1-processing-x:projb) [   x:projb] o.a.s.c.SolrCore QuerySenderListener done.
+2015-11-16 18:44:54.396 INFO  (searcherExecutor-12-thread-1-processing-x:projb) [   x:projb] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2015-11-16 18:44:54.396 INFO  (searcherExecutor-12-thread-1-processing-x:projb) [   x:projb] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2015-11-16 18:44:54.396 INFO  (searcherExecutor-12-thread-1-processing-x:projb) [   x:projb] o.a.s.c.SolrCore [projb] Registered new searcher Searcher@504ff367[projb] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C3440)))}
+2015-11-16 18:44:54.397 INFO  (qtp303791137-16) [   x:projb] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-11-16 18:44:54.398 INFO  (qtp303791137-16) [   x:projb] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-11-16 18:44:54.405 INFO  (qtp303791137-16) [   x:projb] o.a.s.u.VersionInfo Found MAX value 1518012312549588992 from Terms for _version_ in index
+2015-11-16 18:44:54.412 INFO  (qtp303791137-16) [   x:projb] o.a.s.u.UpdateLog Took 15 ms to seed version buckets with highest version 1518012312549588992
+2015-11-16 18:44:54.412 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.CoreContainer registering core: projb
+2015-11-16 18:44:54.422 INFO  (qtp303791137-16) [   x:projb] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={instanceDir=projb&name=projb&action=CREATE&wt=json} status=0 QTime=1062 
+2015-11-16 18:45:04.341 INFO  (qtp303791137-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1447699500450&wt=json} status=0 QTime=0 
+2015-11-16 18:45:04.411 INFO  (qtp303791137-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={_=1447699500522&wt=json} status=0 QTime=3 
+2015-11-16 18:45:04.467 INFO  (qtp303791137-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={_=1447699500582&wt=json} status=0 QTime=0 
+2015-11-16 18:45:04.540 INFO  (qtp303791137-12) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={_=1447699500650&wt=json} status=0 QTime=0 
+2015-11-16 18:45:09.786 ERROR (qtp303791137-15) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.menu-top.html]
+2015-11-16 18:45:09.786 INFO  (qtp303791137-15) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&_=1447699505891&contentType=text/html;charset%3Dutf-8} status=404 QTime=0 
+2015-11-16 18:45:09.803 ERROR (qtp303791137-20) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.menu-bottom.html]
+2015-11-16 18:45:09.803 INFO  (qtp303791137-20) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&_=1447699505897&contentType=text/html;charset%3Dutf-8} status=404 QTime=0 
+2015-11-16 18:45:09.868 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/luke params={numTerms=0&_=1447699505980&show=index&wt=json} status=0 QTime=0 
+2015-11-16 18:45:09.878 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/replication params={command=details&_=1447699505984&wt=json} status=0 QTime=0 
+2015-11-16 18:45:09.889 INFO  (qtp303791137-14) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/system params={_=1447699505986&wt=json} status=0 QTime=2 
+2015-11-16 18:45:09.895 ERROR (qtp303791137-12) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.html]
+2015-11-16 18:45:09.895 INFO  (qtp303791137-12) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1447699505988} status=404 QTime=0 
+2015-11-16 18:45:09.909 INFO  (qtp303791137-19) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/ping params={action=status&_=1447699505990&wt=json} status=503 QTime=0 
+2015-11-16 18:45:20.888 INFO  (qtp303791137-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1447699517000&wt=json} status=0 QTime=0 
+2015-11-16 18:45:20.958 INFO  (qtp303791137-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={_=1447699517067&wt=json} status=0 QTime=2 
+2015-11-16 18:45:21.034 ERROR (qtp303791137-13) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.menu-top.html]
+2015-11-16 18:45:21.035 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&_=1447699517142&contentType=text/html;charset%3Dutf-8} status=404 QTime=0 
+2015-11-16 18:45:21.041 ERROR (qtp303791137-16) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.menu-bottom.html]
+2015-11-16 18:45:21.042 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&_=1447699517143&contentType=text/html;charset%3Dutf-8} status=404 QTime=0 
+2015-11-16 18:45:21.111 INFO  (qtp303791137-14) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/luke params={numTerms=0&_=1447699517220&show=index&wt=json} status=0 QTime=0 
+2015-11-16 18:45:21.122 INFO  (qtp303791137-12) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/replication params={command=details&_=1447699517225&wt=json} status=0 QTime=0 
+2015-11-16 18:45:21.129 INFO  (qtp303791137-19) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/system params={_=1447699517226&wt=json} status=0 QTime=2 
+2015-11-16 18:45:21.136 ERROR (qtp303791137-15) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.html]
+2015-11-16 18:45:21.136 INFO  (qtp303791137-15) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1447699517228} status=404 QTime=0 
+2015-11-16 18:45:21.144 INFO  (qtp303791137-20) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/ping params={action=status&_=1447699517230&wt=json} status=503 QTime=0 
+2015-11-16 18:45:33.409 INFO  (qtp303791137-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={_=1447699529516&wt=json} status=0 QTime=0 
+2015-11-16 18:45:33.471 INFO  (qtp303791137-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={_=1447699529585&wt=json} status=0 QTime=0 
+2015-11-16 18:45:36.274 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrCore [projb]  CLOSING SolrCore org.apache.solr.core.SolrCore@617d9c0
+2015-11-16 18:45:36.275 INFO  (qtp303791137-13) [   ] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=892494,transaction_logs_total_number=1}
+2015-11-16 18:45:36.275 INFO  (qtp303791137-13) [   ] o.a.s.u.SolrCoreState Closing SolrCoreState
+2015-11-16 18:45:36.275 INFO  (qtp303791137-13) [   ] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2015-11-16 18:45:36.275 INFO  (qtp303791137-13) [   ] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2015-11-16 18:45:36.278 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrCore [projb] Closing main searcher on request.
+2015-11-16 18:45:36.278 INFO  (qtp303791137-13) [   ] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2015-11-16 18:45:36.279 INFO  (qtp303791137-13) [   ] o.a.s.c.CachingDirectoryFactory looking to close /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data [CachedDir<<refCount=0;path=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data;done=false>>]
+2015-11-16 18:45:36.279 INFO  (qtp303791137-13) [   ] o.a.s.c.CachingDirectoryFactory Closing directory: /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data
+2015-11-16 18:45:36.279 INFO  (qtp303791137-13) [   ] o.a.s.c.CachingDirectoryFactory looking to close /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index [CachedDir<<refCount=0;path=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index;done=false>>]
+2015-11-16 18:45:36.279 INFO  (qtp303791137-13) [   ] o.a.s.c.CachingDirectoryFactory Closing directory: /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index
+2015-11-16 18:45:36.279 INFO  (qtp303791137-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={action=UNLOAD&_=1447699532367&core=projb&wt=json} status=0 QTime=5 
+2015-11-16 18:45:36.336 INFO  (qtp303791137-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={_=1447699532446&wt=json} status=0 QTime=0 
+2015-11-16 18:45:53.718 INFO  (qtp303791137-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=3 
+2015-11-16 18:45:53.756 INFO  (qtp303791137-12) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=2 
+2015-11-16 18:45:53.767 INFO  (qtp303791137-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={action=STATUS&core=projb&wt=json} status=0 QTime=0 
+2015-11-16 18:45:53.776 INFO  (qtp303791137-13) [   ] o.a.s.h.a.CoreAdminHandler core create command action=CREATE&wt=json&instanceDir=projb&name=projb
+2015-11-16 18:45:53.776 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=projb, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=projb, absoluteInstDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/, dataDir=data/}
+2015-11-16 18:45:53.776 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/'
+2015-11-16 18:45:53.819 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-11-16 18:45:53.820 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-11-16 18:45:53.824 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-dataimporthandler-extras-5.3.0.jar' to classloader
+2015-11-16 18:45:53.824 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-dataimporthandler-5.3.0.jar' to classloader
+2015-11-16 18:45:53.825 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-11-16 18:45:53.825 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-11-16 18:45:53.825 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-11-16 18:45:53.825 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-11-16 18:45:53.825 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-11-16 18:45:53.825 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-11-16 18:45:53.825 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-11-16 18:45:53.826 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-11-16 18:45:53.826 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-11-16 18:45:53.826 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-11-16 18:45:53.826 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-11-16 18:45:53.826 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-11-16 18:45:53.826 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-11-16 18:45:53.826 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-11-16 18:45:53.826 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-11-16 18:45:53.826 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-11-16 18:45:53.826 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-11-16 18:45:53.826 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-11-16 18:45:53.827 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-11-16 18:45:53.827 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-11-16 18:45:53.827 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-11-16 18:45:53.827 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-11-16 18:45:53.827 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-11-16 18:45:53.827 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-11-16 18:45:53.827 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-11-16 18:45:53.827 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-11-16 18:45:53.827 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-11-16 18:45:53.827 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-11-16 18:45:53.827 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-11-16 18:45:53.827 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-11-16 18:45:53.828 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-11-16 18:45:53.832 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-11-16 18:45:53.832 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-11-16 18:45:53.836 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-cell-5.3.0.jar' to classloader
+2015-11-16 18:45:53.836 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-11-16 18:45:53.836 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-11-16 18:45:53.836 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-11-16 18:45:53.837 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-11-16 18:45:53.837 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-11-16 18:45:53.837 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-11-16 18:45:53.837 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-11-16 18:45:53.837 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-11-16 18:45:53.841 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-clustering-5.3.0.jar' to classloader
+2015-11-16 18:45:53.841 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-11-16 18:45:53.841 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-11-16 18:45:53.842 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-langid-5.3.0.jar' to classloader
+2015-11-16 18:45:53.842 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-11-16 18:45:53.842 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-11-16 18:45:53.842 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-11-16 18:45:53.842 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-11-16 18:45:53.843 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-velocity-5.3.0.jar' to classloader
+2015-11-16 18:45:53.885 INFO  (qtp303791137-13) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-11-16 18:45:53.887 INFO  (qtp303791137-13) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.2.0
+2015-11-16 18:45:53.974 INFO  (qtp303791137-13) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-11-16 18:45:53.975 INFO  (qtp303791137-13) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/schema.xml
+2015-11-16 18:45:54.020 INFO  (qtp303791137-13) [   ] o.a.s.s.IndexSchema [projb] Schema name=projb
+2015-11-16 18:45:54.337 INFO  (qtp303791137-13) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-11-16 18:45:54.403 INFO  (qtp303791137-13) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-11-16 18:45:54.417 INFO  (qtp303791137-13) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-11-16 18:45:54.474 INFO  (qtp303791137-13) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf'
+2015-11-16 18:45:54.474 INFO  (qtp303791137-13) [   ] o.a.s.c.CoreContainer Creating SolrCore 'projb' using configuration from instancedir /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/
+2015-11-16 18:45:54.474 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-11-16 18:45:54.474 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.SolrCore [[projb] ] Opening new SolrCore at [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/], dataDir=[null]
+2015-11-16 18:45:54.476 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-11-16 18:45:54.476 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.SolrCore [[projb] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-11-16 18:45:54.476 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.SolrCore [[projb] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2015-11-16 18:45:54.476 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.CachingDirectoryFactory return new directory for /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data
+2015-11-16 18:45:54.477 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.SolrCore New index directory detected: old=null new=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index/
+2015-11-16 18:45:54.478 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2015-11-16 18:45:54.478 INFO  (qtp303791137-13) [   x:projb] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2015-11-16 18:45:54.484 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-11-16 18:45:54.486 INFO  (qtp303791137-13) [   x:projb] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-11-16 18:45:54.487 INFO  (qtp303791137-13) [   x:projb] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-11-16 18:45:54.487 INFO  (qtp303791137-13) [   x:projb] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-11-16 18:45:54.488 INFO  (qtp303791137-13) [   x:projb] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-11-16 18:45:54.488 INFO  (OldIndexDirectoryCleanupThreadForCore-projb) [   x:projb] o.a.s.c.SolrCore Looking for old index directories to cleanup for core projb in /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/
+2015-11-16 18:45:54.503 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2015-11-16 18:45:54.539 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-11-16 18:45:54.539 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-11-16 18:45:54.539 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2015-11-16 18:45:54.539 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.PluginBag requestHandler : '/suggest' created with startup=lazy 
+2015-11-16 18:45:54.540 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2015-11-16 18:45:54.540 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-11-16 18:45:54.540 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2015-11-16 18:45:54.540 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.RequestHandlers Registered paths: /admin/logging,/admin/plugins,/admin/system,/admin/segments,/admin/file,/dataimport,/admin/luke,/update,/terms,/admin/threads,/schema,/query,/replication,/analysis/field,/browse,/admin/ping,/update/json/docs,/analysis/document,/select,/admin/mbeans,/update/csv,/elevate,/get,/update/json,/update/extract,/admin/properties,/tvrh,/spell,/config,/debug/dump,/suggest
+2015-11-16 18:45:54.542 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-11-16 18:45:54.542 INFO  (qtp303791137-13) [   x:projb] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-11-16 18:45:54.542 INFO  (qtp303791137-13) [   x:projb] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-11-16 18:45:54.544 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-11-16 18:45:54.544 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-11-16 18:45:54.544 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.CachingDirectoryFactory return new directory for /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index
+2015-11-16 18:45:54.548 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@3515ace9; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+2015-11-16 18:45:54.548 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.SolrCore newest commit generation = 2
+2015-11-16 18:45:54.552 INFO  (qtp303791137-13) [   x:projb] o.a.s.s.SolrIndexSearcher Opening Searcher@5bc4ba4c[projb] main
+2015-11-16 18:45:54.552 INFO  (qtp303791137-13) [   x:projb] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf
+2015-11-16 18:45:54.552 INFO  (qtp303791137-13) [   x:projb] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf}
+2015-11-16 18:45:54.552 INFO  (qtp303791137-13) [   x:projb] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf
+2015-11-16 18:45:54.553 INFO  (qtp303791137-13) [   x:projb] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-11-16 18:45:54.553 INFO  (qtp303791137-13) [   x:projb] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2015-11-16 18:45:54.553 INFO  (qtp303791137-13) [   x:projb] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2015-11-16 18:45:54.553 INFO  (qtp303791137-13) [   x:projb] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2015-11-16 18:45:54.553 INFO  (qtp303791137-13) [   x:projb] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/elevate.xml
+2015-11-16 18:45:54.562 INFO  (qtp303791137-13) [   x:projb] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-11-16 18:45:54.567 INFO  (searcherExecutor-17-thread-1-processing-x:projb) [   x:projb] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@5bc4ba4c[projb] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C3440)))}
+2015-11-16 18:45:54.568 INFO  (searcherExecutor-17-thread-1-processing-x:projb) [   x:projb] o.a.s.c.S.Request [projb] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=1 
+2015-11-16 18:45:54.568 INFO  (searcherExecutor-17-thread-1-processing-x:projb) [   x:projb] o.a.s.c.SolrCore QuerySenderListener done.
+2015-11-16 18:45:54.568 INFO  (searcherExecutor-17-thread-1-processing-x:projb) [   x:projb] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2015-11-16 18:45:54.568 INFO  (searcherExecutor-17-thread-1-processing-x:projb) [   x:projb] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2015-11-16 18:45:54.568 INFO  (searcherExecutor-17-thread-1-processing-x:projb) [   x:projb] o.a.s.c.SolrCore [projb] Registered new searcher Searcher@5bc4ba4c[projb] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C3440)))}
+2015-11-16 18:45:54.569 INFO  (qtp303791137-13) [   x:projb] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-11-16 18:45:54.570 INFO  (qtp303791137-13) [   x:projb] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-11-16 18:45:54.574 INFO  (qtp303791137-13) [   x:projb] o.a.s.u.VersionInfo Found MAX value 1518012312549588992 from Terms for _version_ in index
+2015-11-16 18:45:54.574 INFO  (qtp303791137-13) [   x:projb] o.a.s.u.UpdateLog Took 5 ms to seed version buckets with highest version 1518012312549588992
+2015-11-16 18:45:54.575 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.CoreContainer registering core: projb
+2015-11-16 18:45:54.575 INFO  (qtp303791137-13) [   x:projb] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={instanceDir=projb&name=projb&action=CREATE&wt=json} status=0 QTime=799 
+2015-11-16 18:45:59.455 INFO  (qtp303791137-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1447699555563&wt=json} status=0 QTime=0 
+2015-11-16 18:45:59.531 INFO  (qtp303791137-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={_=1447699555636&wt=json} status=0 QTime=2 
+2015-11-16 18:45:59.590 INFO  (qtp303791137-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={_=1447699555702&wt=json} status=0 QTime=0 
+2015-11-16 18:45:59.665 INFO  (qtp303791137-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={_=1447699555775&wt=json} status=0 QTime=1 
+2015-11-16 18:46:10.912 ERROR (qtp303791137-13) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.menu-top.html]
+2015-11-16 18:46:10.912 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&_=1447699567024&contentType=text/html;charset%3Dutf-8} status=404 QTime=0 
+2015-11-16 18:46:10.924 ERROR (qtp303791137-12) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.menu-bottom.html]
+2015-11-16 18:46:10.924 INFO  (qtp303791137-12) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&_=1447699567025&contentType=text/html;charset%3Dutf-8} status=404 QTime=0 
+2015-11-16 18:46:10.988 INFO  (qtp303791137-17) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/luke params={numTerms=0&_=1447699567099&show=index&wt=json} status=0 QTime=0 
+2015-11-16 18:46:10.999 INFO  (qtp303791137-15) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/replication params={command=details&_=1447699567103&wt=json} status=0 QTime=0 
+2015-11-16 18:46:11.009 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/system params={_=1447699567105&wt=json} status=0 QTime=2 
+2015-11-16 18:46:11.016 ERROR (qtp303791137-14) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.html]
+2015-11-16 18:46:11.016 INFO  (qtp303791137-14) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1447699567107} status=404 QTime=0 
+2015-11-16 18:46:11.025 INFO  (qtp303791137-19) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/ping params={action=status&_=1447699567108&wt=json} status=503 QTime=0 
+2015-11-16 18:58:39.067 INFO  (qtp303791137-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1447700317288&wt=json} status=0 QTime=0 
+2015-11-16 18:58:39.202 INFO  (qtp303791137-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={_=1447700317462&wt=json} status=0 QTime=8 
+2015-11-16 18:58:39.417 ERROR (qtp303791137-12) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.menu-top.html]
+2015-11-16 18:58:39.417 INFO  (qtp303791137-12) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&_=1447700317624&contentType=text/html;charset%3Dutf-8} status=404 QTime=0 
+2015-11-16 18:58:39.431 ERROR (qtp303791137-14) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.menu-bottom.html]
+2015-11-16 18:58:39.431 INFO  (qtp303791137-14) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&_=1447700317625&contentType=text/html;charset%3Dutf-8} status=404 QTime=0 
+2015-11-16 18:58:39.668 INFO  (qtp303791137-14) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/luke params={numTerms=0&_=1447700317809&show=index&wt=json} status=0 QTime=0 
+2015-11-16 18:58:39.675 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/replication params={command=details&_=1447700317816&wt=json} status=0 QTime=0 
+2015-11-16 18:58:39.841 ERROR (qtp303791137-17) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.html]
+2015-11-16 18:58:39.841 INFO  (qtp303791137-17) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1447700317821} status=404 QTime=0 
+2015-11-16 18:58:39.844 INFO  (qtp303791137-19) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/system params={_=1447700317818&wt=json} status=0 QTime=4 
+2015-11-16 18:58:39.861 INFO  (qtp303791137-15) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/ping params={action=status&_=1447700317823&wt=json} status=503 QTime=0 
+2015-11-16 18:58:46.610 INFO  (qtp303791137-14) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/select params={fl=*,+score&indent=true&q=(Russia's+intervention+in+Syria).&qf=text_en+text_ru+text_de&wt=json&defType=dismax&rows=1000} hits=0 status=0 QTime=3 
+2015-11-16 19:04:40.492 INFO  (qtp303791137-16) [   x:projb] o.a.s.s.SolrIndexSearcher Opening Searcher@b3a0261[projb] realtime
+2015-11-16 19:04:40.493 INFO  (qtp303791137-16) [   x:projb] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-11-16 19:04:40.541 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@3515ace9; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@3515ace9; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+2015-11-16 19:04:40.541 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.SolrCore newest commit generation = 3
+2015-11-16 19:04:40.542 INFO  (qtp303791137-16) [   x:projb] o.a.s.s.SolrIndexSearcher Opening Searcher@324ef0a9[projb] main
+2015-11-16 19:04:40.543 INFO  (searcherExecutor-17-thread-1-processing-x:projb) [   x:projb] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@324ef0a9[projb] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2015-11-16 19:04:40.543 INFO  (searcherExecutor-17-thread-1-processing-x:projb) [   x:projb] o.a.s.c.SolrCore QuerySenderListener done.
+2015-11-16 19:04:40.543 INFO  (searcherExecutor-17-thread-1-processing-x:projb) [   x:projb] o.a.s.c.SolrCore [projb] Registered new searcher Searcher@324ef0a9[projb] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2015-11-16 19:04:40.545 INFO  (qtp303791137-16) [   x:projb] o.a.s.u.UpdateHandler end_commit_flush
+2015-11-16 19:04:40.545 INFO  (qtp303791137-16) [   x:projb] o.a.s.u.p.LogUpdateProcessor [projb] webapp=/solr path=/update params={commit=true} {deleteByQuery=*:* (-1518024188649013248),commit=} 0 238
+2015-11-16 19:04:46.032 INFO  (qtp303791137-12) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1447700684309&wt=json} status=0 QTime=0 
+2015-11-16 19:04:46.125 INFO  (qtp303791137-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={_=1447700684403&wt=json} status=0 QTime=3 
+2015-11-16 19:04:46.198 ERROR (qtp303791137-16) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.menu-top.html]
+2015-11-16 19:04:46.198 INFO  (qtp303791137-16) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&_=1447700684477&contentType=text/html;charset%3Dutf-8} status=404 QTime=0 
+2015-11-16 19:04:46.249 ERROR (qtp303791137-15) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.menu-bottom.html]
+2015-11-16 19:04:46.249 INFO  (qtp303791137-15) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&_=1447700684478&contentType=text/html;charset%3Dutf-8} status=404 QTime=0 
+2015-11-16 19:04:46.293 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/replication params={command=details&_=1447700684562&wt=json} status=0 QTime=0 
+2015-11-16 19:04:46.294 INFO  (qtp303791137-13) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/luke params={numTerms=0&_=1447700684558&show=index&wt=json} status=0 QTime=0 
+2015-11-16 19:04:46.301 INFO  (qtp303791137-12) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/system params={_=1447700684563&wt=json} status=0 QTime=2 
+2015-11-16 19:04:46.306 ERROR (qtp303791137-17) [   x:projb] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/conf/admin-extra.html]
+2015-11-16 19:04:46.306 INFO  (qtp303791137-17) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1447700684565} status=404 QTime=0 
+2015-11-16 19:04:46.317 INFO  (qtp303791137-14) [   x:projb] o.a.s.c.S.Request [projb] webapp=/solr path=/admin/ping params={action=status&_=1447700684567&wt=json} status=503 QTime=0 
+2015-11-16 19:05:05.352 INFO  (qtp303791137-20) [   x:projb] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-11-16 19:05:07.178 INFO  (qtp303791137-20) [   x:projb] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@3515ace9; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@3515ace9; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+2015-11-16 19:05:07.178 INFO  (qtp303791137-20) [   x:projb] o.a.s.c.SolrCore newest commit generation = 4
+2015-11-16 19:05:07.182 INFO  (qtp303791137-20) [   x:projb] o.a.s.s.SolrIndexSearcher Opening Searcher@2e3cf0f6[projb] main
+2015-11-16 19:05:07.188 INFO  (searcherExecutor-17-thread-1-processing-x:projb) [   x:projb] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@2e3cf0f6[projb] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(5.3.0):C3440)))}
+2015-11-16 19:05:07.188 INFO  (searcherExecutor-17-thread-1-processing-x:projb) [   x:projb] o.a.s.c.SolrCore QuerySenderListener done.
+2015-11-16 19:05:07.188 INFO  (searcherExecutor-17-thread-1-processing-x:projb) [   x:projb] o.a.s.c.SolrCore [projb] Registered new searcher Searcher@2e3cf0f6[projb] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(5.3.0):C3440)))}
+2015-11-16 19:05:07.189 INFO  (qtp303791137-20) [   x:projb] o.a.s.u.UpdateHandler end_commit_flush
+2015-11-16 19:05:07.189 INFO  (qtp303791137-20) [   x:projb] o.a.s.u.p.LogUpdateProcessor [projb] webapp=/solr path=/update/json params={commit=true} {add=[653278482517110785 (1518024212268187648), 653278274651492353 (1518024212317470720), 653278168992903168 (1518024212318519296), 653278024876576768 (1518024212319567872), 653277903430516736 (1518024212320616448), 653277787395125248 (1518024212320616449), 653277666678693888 (1518024212321665024), 653277644549693440 (1518024212322713600), 653277346879918080 (1518024212323762176), 653277342559805440 (1518024212324810752), ... (3440 adds)],commit=} 0 4271
+2015-11-16 19:05:32.998 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@513e5f5a{HTTP/1.1}{0.0.0.0:8983}
+2015-11-16 19:05:32.998 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1830487532
+2015-11-16 19:05:32.998 INFO  (ShutdownMonitor) [   x:projb] o.a.s.c.SolrCore [projb]  CLOSING SolrCore org.apache.solr.core.SolrCore@7c57d968
+2015-11-16 19:05:32.999 INFO  (ShutdownMonitor) [   x:projb] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=2,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=3440,cumulative_deletesById=0,cumulative_deletesByQuery=1,cumulative_errors=0,transaction_logs_total_size=920311,transaction_logs_total_number=1}
+2015-11-16 19:05:32.999 INFO  (ShutdownMonitor) [   x:projb] o.a.s.u.SolrCoreState Closing SolrCoreState
+2015-11-16 19:05:33.000 INFO  (ShutdownMonitor) [   x:projb] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2015-11-16 19:05:33.000 INFO  (ShutdownMonitor) [   x:projb] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2015-11-16 19:05:33.002 INFO  (ShutdownMonitor) [   x:projb] o.a.s.c.SolrCore [projb] Closing main searcher on request.
+2015-11-16 19:05:33.003 INFO  (ShutdownMonitor) [   x:projb] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2015-11-16 19:05:33.003 INFO  (ShutdownMonitor) [   x:projb] o.a.s.c.CachingDirectoryFactory looking to close /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index [CachedDir<<refCount=0;path=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index;done=false>>]
+2015-11-16 19:05:33.003 INFO  (ShutdownMonitor) [   x:projb] o.a.s.c.CachingDirectoryFactory Closing directory: /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data/index
+2015-11-16 19:05:33.003 INFO  (ShutdownMonitor) [   x:projb] o.a.s.c.CachingDirectoryFactory looking to close /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data [CachedDir<<refCount=0;path=/home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data;done=false>>]
+2015-11-16 19:05:33.004 INFO  (ShutdownMonitor) [   x:projb] o.a.s.c.CachingDirectoryFactory Closing directory: /home/padidelavamshikrishna/solr/solr-5.3.0/projb/solr/projb/data
+2015-11-16 19:05:33.005 INFO  (ShutdownMonitor) [   x:projb] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@596e1d6b{/solr,file:/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp/,UNAVAILABLE}{/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp}

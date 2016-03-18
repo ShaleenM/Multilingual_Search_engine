@@ -1,0 +1,193 @@
+2015-12-05 18:35:27.964 INFO  (main) [   ] o.e.j.u.log Logging initialized @5982ms
+2015-12-05 18:35:31.387 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-12-05 18:35:31.612 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-12-05 18:35:31.614 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/home/padidelavamshikrishna/solr/solr-5.3.0/server/contexts/] at interval 0
+2015-12-05 18:35:41.497 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-12-05 18:35:42.147 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@352abdf5{/solr,file:/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp/,STARTING}{/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-12-05 18:35:42.557 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=2121668094@7e7615fe
+2015-12-05 18:35:43.001 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-12-05 18:35:43.002 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr
+2015-12-05 18:35:43.080 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/'
+2015-12-05 18:35:45.994 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/solr.xml
+2015-12-05 18:35:47.451 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr
+2015-12-05 18:35:47.715 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 112499142
+2015-12-05 18:35:47.715 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/]
+2015-12-05 18:35:47.715 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/lib
+2015-12-05 18:35:47.716 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/lib).
+2015-12-05 18:35:48.115 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-12-05 18:35:53.288 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-12-05 18:35:53.290 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-12-05 18:35:53.328 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-12-05 18:35:53.352 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-12-05 18:35:53.352 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-12-05 18:35:53.774 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr
+2015-12-05 18:35:54.015 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=projc, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc, absoluteInstDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/, dataDir=data/}
+2015-12-05 18:35:54.016 INFO  (main) [   ] o.a.s.c.CoresLocator Found core projc in /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/
+2015-12-05 18:35:54.048 INFO  (main) [   ] o.a.s.c.CoresLocator Found 1 core definitions
+2015-12-05 18:35:54.129 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/home/padidelavamshikrishna/solr/solr-5.3.0/server
+2015-12-05 18:35:54.130 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-12-05 18:35:54.170 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/'
+2015-12-05 18:35:54.621 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@352abdf5{/solr,file:/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp/,AVAILABLE}{/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp}
+2015-12-05 18:35:55.107 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@29b473e2{HTTP/1.1}{0.0.0.0:8983}
+2015-12-05 18:35:55.107 INFO  (main) [   ] o.e.j.s.Server Started @33147ms
+2015-12-05 18:35:56.078 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-12-05 18:35:56.232 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-12-05 18:35:56.251 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-dataimporthandler-extras-5.3.0.jar' to classloader
+2015-12-05 18:35:56.252 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-dataimporthandler-5.3.0.jar' to classloader
+2015-12-05 18:35:56.267 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-12-05 18:35:56.283 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-12-05 18:35:56.284 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-12-05 18:35:56.284 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-12-05 18:35:56.284 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-12-05 18:35:56.284 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-12-05 18:35:56.284 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-12-05 18:35:56.284 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-12-05 18:35:56.284 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-12-05 18:35:56.284 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-12-05 18:35:56.285 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-12-05 18:35:56.285 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-12-05 18:35:56.285 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-12-05 18:35:56.285 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-12-05 18:35:56.285 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-12-05 18:35:56.285 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-12-05 18:35:56.285 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-12-05 18:35:56.285 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-12-05 18:35:56.285 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-12-05 18:35:56.286 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-12-05 18:35:56.286 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-12-05 18:35:56.286 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-12-05 18:35:56.286 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-12-05 18:35:56.286 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-12-05 18:35:56.286 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-12-05 18:35:56.286 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-12-05 18:35:56.286 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-12-05 18:35:56.286 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-12-05 18:35:56.287 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-12-05 18:35:56.287 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-12-05 18:35:56.287 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-12-05 18:35:56.287 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-12-05 18:35:56.287 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-12-05 18:35:56.324 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-cell-5.3.0.jar' to classloader
+2015-12-05 18:35:56.327 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-12-05 18:35:56.327 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-12-05 18:35:56.327 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-12-05 18:35:56.327 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-12-05 18:35:56.327 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-12-05 18:35:56.327 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-12-05 18:35:56.328 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-12-05 18:35:56.328 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-12-05 18:35:56.349 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-clustering-5.3.0.jar' to classloader
+2015-12-05 18:35:56.350 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-12-05 18:35:56.351 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-12-05 18:35:56.351 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-langid-5.3.0.jar' to classloader
+2015-12-05 18:35:56.372 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-12-05 18:35:56.372 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-12-05 18:35:56.372 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-12-05 18:35:56.372 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-12-05 18:35:56.402 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-velocity-5.3.0.jar' to classloader
+2015-12-05 18:36:01.760 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-12-05 18:36:01.997 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.2.0
+2015-12-05 18:36:07.273 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-12-05 18:36:07.435 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf/schema.xml
+2015-12-05 18:36:08.696 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [projc] Schema name=solr
+2015-12-05 18:36:18.053 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-12-05 18:36:19.171 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-12-05 18:36:19.357 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-12-05 18:36:21.935 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf'
+2015-12-05 18:36:21.936 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'projc' using configuration from instancedir /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/
+2015-12-05 18:36:21.936 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-12-05 18:36:22.069 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore [[projc] ] Opening new SolrCore at [/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/], dataDir=[null]
+2015-12-05 18:36:22.071 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-12-05 18:36:22.104 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore [[projc] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-12-05 18:36:22.133 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore [[projc] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2015-12-05 18:36:22.243 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.CachingDirectoryFactory return new directory for /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data
+2015-12-05 18:36:22.246 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore New index directory detected: old=null new=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index/
+2015-12-05 18:36:22.267 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.CachingDirectoryFactory return new directory for /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index
+2015-12-05 18:36:22.409 INFO  (OldIndexDirectoryCleanupThreadForCore-projc) [   x:projc] o.a.s.c.SolrCore Looking for old index directories to cleanup for core projc in /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/
+2015-12-05 18:36:22.451 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2015-12-05 18:36:22.492 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2015-12-05 18:36:23.581 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-12-05 18:36:23.922 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-12-05 18:36:23.924 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-12-05 18:36:23.924 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-12-05 18:36:23.962 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-12-05 18:36:24.239 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2015-12-05 18:36:24.240 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-12-05 18:36:24.240 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-12-05 18:36:24.279 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2015-12-05 18:36:24.279 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/suggest' created with startup=lazy 
+2015-12-05 18:36:24.279 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2015-12-05 18:36:24.279 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-12-05 18:36:24.279 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2015-12-05 18:36:24.280 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.RequestHandlers Registered paths: /admin/logging,/admin/plugins,/admin/system,/admin/segments,/admin/file,/dataimport,/admin/luke,/update,/terms,/admin/threads,/schema,/query,/replication,/analysis/field,/browse,/admin/ping,/update/json/docs,/analysis/document,/select,/admin/mbeans,/update/csv,/elevate,/get,/update/json,/update/extract,/admin/properties,/tvrh,/spell,/config,/debug/dump,/suggest
+2015-12-05 18:36:24.321 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-12-05 18:36:24.565 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-12-05 18:36:24.565 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-12-05 18:36:24.795 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-12-05 18:36:24.795 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-12-05 18:36:25.316 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1ec0351b; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+2015-12-05 18:36:25.317 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore newest commit generation = 5
+2015-12-05 18:36:25.714 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.s.SolrIndexSearcher Opening Searcher@7328027c[projc] main
+2015-12-05 18:36:25.783 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf
+2015-12-05 18:36:25.783 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf}
+2015-12-05 18:36:25.889 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf
+2015-12-05 18:36:25.890 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-12-05 18:36:26.000 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2015-12-05 18:36:26.044 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2015-12-05 18:36:26.124 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2015-12-05 18:36:26.163 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf/elevate.xml
+2015-12-05 18:36:26.524 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-12-05 18:36:26.682 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-12-05 18:36:26.683 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-12-05 18:36:26.804 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@7328027c[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(5.3.0):C11261)))}
+2015-12-05 18:36:27.095 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.VersionInfo Found MAX value 1519698205295509504 from Terms for _version_ in index
+2015-12-05 18:36:27.254 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.UpdateLog Took 572 ms to seed version buckets with highest version 1519698205295509504
+2015-12-05 18:36:27.258 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.CoreContainer registering core: projc
+2015-12-05 18:36:27.458 ERROR (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field text
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1298)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:444)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:172)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:370)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:762)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:546)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:299)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:158)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.core.QuerySenderListener.newSearcher(QuerySenderListener.java:64)
+	at org.apache.solr.core.SolrCore$5.call(SolrCore.java:1835)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-12-05 18:36:27.460 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.S.Request [projc] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} status=400 QTime=652 
+2015-12-05 18:36:27.460 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener done.
+2015-12-05 18:36:27.461 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2015-12-05 18:36:27.461 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2015-12-05 18:36:27.490 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore [projc] Registered new searcher Searcher@7328027c[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(5.3.0):C11261)))}
+2015-12-05 18:36:55.793 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@29b473e2{HTTP/1.1}{0.0.0.0:8983}
+2015-12-05 18:36:55.794 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=112499142
+2015-12-05 18:36:55.795 INFO  (ShutdownMonitor) [   x:projc] o.a.s.c.SolrCore [projc]  CLOSING SolrCore org.apache.solr.core.SolrCore@67ea92f3
+2015-12-05 18:36:55.796 INFO  (ShutdownMonitor) [   x:projc] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=1600615,transaction_logs_total_number=1}
+2015-12-05 18:36:55.796 INFO  (ShutdownMonitor) [   x:projc] o.a.s.u.SolrCoreState Closing SolrCoreState
+2015-12-05 18:36:55.796 INFO  (ShutdownMonitor) [   x:projc] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2015-12-05 18:36:55.796 INFO  (ShutdownMonitor) [   x:projc] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2015-12-05 18:36:55.960 INFO  (ShutdownMonitor) [   x:projc] o.a.s.c.SolrCore [projc] Closing main searcher on request.
+2015-12-05 18:36:55.962 INFO  (ShutdownMonitor) [   x:projc] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2015-12-05 18:36:55.962 INFO  (ShutdownMonitor) [   x:projc] o.a.s.c.CachingDirectoryFactory looking to close /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data [CachedDir<<refCount=0;path=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data;done=false>>]
+2015-12-05 18:36:55.962 INFO  (ShutdownMonitor) [   x:projc] o.a.s.c.CachingDirectoryFactory Closing directory: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data
+2015-12-05 18:36:55.962 INFO  (ShutdownMonitor) [   x:projc] o.a.s.c.CachingDirectoryFactory looking to close /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index [CachedDir<<refCount=0;path=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index;done=false>>]
+2015-12-05 18:36:55.963 INFO  (ShutdownMonitor) [   x:projc] o.a.s.c.CachingDirectoryFactory Closing directory: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index
+2015-12-05 18:36:56.002 INFO  (ShutdownMonitor) [   x:projc] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@352abdf5{/solr,file:/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp/,UNAVAILABLE}{/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp}

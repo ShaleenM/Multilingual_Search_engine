@@ -1,0 +1,738 @@
+2015-12-14 07:06:34.842 INFO  (main) [   ] o.e.j.u.log Logging initialized @5889ms
+2015-12-14 07:06:38.468 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-12-14 07:06:38.753 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-12-14 07:06:38.799 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/home/padidelavamshikrishna/solr/solr-5.3.0/server/contexts/] at interval 0
+2015-12-14 07:06:48.776 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-12-14 07:06:49.226 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@352abdf5{/solr,file:/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp/,STARTING}{/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-12-14 07:06:49.515 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=2121668094@7e7615fe
+2015-12-14 07:06:50.126 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-12-14 07:06:50.127 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr
+2015-12-14 07:06:50.148 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/'
+2015-12-14 07:06:52.931 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/solr.xml
+2015-12-14 07:06:54.526 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr
+2015-12-14 07:06:54.922 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 112499142
+2015-12-14 07:06:54.951 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/]
+2015-12-14 07:06:54.951 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/lib
+2015-12-14 07:06:54.951 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/lib).
+2015-12-14 07:06:55.154 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-12-14 07:06:59.826 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-12-14 07:06:59.869 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-12-14 07:06:59.870 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-12-14 07:06:59.911 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-12-14 07:06:59.911 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-12-14 07:07:00.876 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr
+2015-12-14 07:07:01.289 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=projc, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc, absoluteInstDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/, dataDir=data/}
+2015-12-14 07:07:01.290 INFO  (main) [   ] o.a.s.c.CoresLocator Found core projc in /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/
+2015-12-14 07:07:01.338 INFO  (main) [   ] o.a.s.c.CoresLocator Found 1 core definitions
+2015-12-14 07:07:01.443 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/'
+2015-12-14 07:07:01.474 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/home/padidelavamshikrishna/solr/solr-5.3.0/server
+2015-12-14 07:07:01.474 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-12-14 07:07:02.136 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@352abdf5{/solr,file:/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp/,AVAILABLE}{/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp}
+2015-12-14 07:07:02.706 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@31f0ad0{HTTP/1.1}{0.0.0.0:8983}
+2015-12-14 07:07:02.706 INFO  (main) [   ] o.e.j.s.Server Started @33755ms
+2015-12-14 07:07:03.539 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-12-14 07:07:03.661 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-12-14 07:07:03.701 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-dataimporthandler-extras-5.3.0.jar' to classloader
+2015-12-14 07:07:03.702 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-dataimporthandler-5.3.0.jar' to classloader
+2015-12-14 07:07:03.744 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-12-14 07:07:03.744 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-12-14 07:07:03.744 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-12-14 07:07:03.745 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-12-14 07:07:03.745 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-12-14 07:07:03.745 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-12-14 07:07:03.745 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-12-14 07:07:03.745 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-12-14 07:07:03.745 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-12-14 07:07:03.745 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-12-14 07:07:03.827 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-12-14 07:07:03.827 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-12-14 07:07:03.827 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-12-14 07:07:03.827 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-12-14 07:07:03.828 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-12-14 07:07:03.828 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-12-14 07:07:03.828 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-12-14 07:07:03.828 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-12-14 07:07:03.828 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-12-14 07:07:03.828 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-12-14 07:07:03.828 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-12-14 07:07:03.828 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-12-14 07:07:03.828 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-12-14 07:07:03.829 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-12-14 07:07:03.829 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-12-14 07:07:03.829 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-12-14 07:07:03.829 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-12-14 07:07:03.829 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-12-14 07:07:03.829 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-12-14 07:07:03.829 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-12-14 07:07:03.829 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-12-14 07:07:03.829 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-12-14 07:07:03.830 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-12-14 07:07:03.830 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-cell-5.3.0.jar' to classloader
+2015-12-14 07:07:03.892 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-12-14 07:07:03.892 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-12-14 07:07:03.892 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-12-14 07:07:03.892 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-12-14 07:07:03.892 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-12-14 07:07:03.892 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-12-14 07:07:03.892 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-12-14 07:07:03.893 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-12-14 07:07:03.893 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-clustering-5.3.0.jar' to classloader
+2015-12-14 07:07:03.895 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-12-14 07:07:03.895 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-12-14 07:07:03.920 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-langid-5.3.0.jar' to classloader
+2015-12-14 07:07:03.925 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-12-14 07:07:03.925 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-12-14 07:07:03.925 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-12-14 07:07:03.925 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-12-14 07:07:03.926 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-velocity-5.3.0.jar' to classloader
+2015-12-14 07:07:09.176 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-12-14 07:07:09.539 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.2.0
+2015-12-14 07:07:16.161 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-12-14 07:07:16.436 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf/schema.xml
+2015-12-14 07:07:18.010 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [projc] Schema name=solr
+2015-12-14 07:07:20.682 INFO  (qtp1249010640-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=330 
+2015-12-14 07:07:28.637 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-12-14 07:07:31.318 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-12-14 07:07:31.480 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-12-14 07:07:34.327 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf'
+2015-12-14 07:07:34.328 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'projc' using configuration from instancedir /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/
+2015-12-14 07:07:34.367 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-12-14 07:07:34.697 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore [[projc] ] Opening new SolrCore at [/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/], dataDir=[null]
+2015-12-14 07:07:34.736 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-12-14 07:07:34.817 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore [[projc] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-12-14 07:07:34.817 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore [[projc] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2015-12-14 07:07:35.013 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.CachingDirectoryFactory return new directory for /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data
+2015-12-14 07:07:35.015 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore New index directory detected: old=null new=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index/
+2015-12-14 07:07:35.044 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.CachingDirectoryFactory return new directory for /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index
+2015-12-14 07:07:35.188 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2015-12-14 07:07:35.226 INFO  (OldIndexDirectoryCleanupThreadForCore-projc) [   x:projc] o.a.s.c.SolrCore Looking for old index directories to cleanup for core projc in /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/
+2015-12-14 07:07:35.267 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2015-12-14 07:07:36.509 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-12-14 07:07:36.994 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-12-14 07:07:36.996 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-12-14 07:07:36.997 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-12-14 07:07:36.998 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-12-14 07:07:37.232 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2015-12-14 07:07:37.233 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-12-14 07:07:37.269 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-12-14 07:07:37.271 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2015-12-14 07:07:37.271 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/suggest' created with startup=lazy 
+2015-12-14 07:07:37.271 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2015-12-14 07:07:37.271 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-12-14 07:07:37.271 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2015-12-14 07:07:37.272 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.RequestHandlers Registered paths: /admin/logging,/admin/plugins,/admin/system,/admin/segments,/admin/file,/dataimport,/admin/luke,/update,/terms,/admin/threads,/schema,/query,/replication,/analysis/field,/browse,/admin/ping,/update/json/docs,/analysis/document,/select,/admin/mbeans,/update/csv,/elevate,/get,/update/json,/update/extract,/admin/properties,/tvrh,/spell,/config,/debug/dump,/suggest
+2015-12-14 07:07:37.311 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-12-14 07:07:37.392 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-12-14 07:07:37.392 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-12-14 07:07:37.586 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-12-14 07:07:37.586 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-12-14 07:07:38.140 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@5bfe9090; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1g,generation=52}
+2015-12-14 07:07:38.181 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore newest commit generation = 52
+2015-12-14 07:07:39.687 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.s.SolrIndexSearcher Opening Searcher@4af84f28[projc] main
+2015-12-14 07:07:39.763 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf
+2015-12-14 07:07:39.764 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf}
+2015-12-14 07:07:39.854 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf
+2015-12-14 07:07:39.854 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-12-14 07:07:39.922 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2015-12-14 07:07:39.996 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2015-12-14 07:07:40.059 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2015-12-14 07:07:40.061 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf/elevate.xml
+2015-12-14 07:07:40.262 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-12-14 07:07:40.304 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@4af84f28[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_13(5.3.0):C4117/319:delGen=1) Uninverting(_14(5.3.0):C6998/153:delGen=2) Uninverting(_15(5.3.0):C3736/551:delGen=2) Uninverting(_16(5.3.0):C11310/49:delGen=1)))}
+2015-12-14 07:07:40.383 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-12-14 07:07:40.384 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-12-14 07:07:40.796 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.VersionInfo Found MAX value 1520336276929118212 from Terms for _version_ in index
+2015-12-14 07:07:40.958 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.UpdateLog Took 574 ms to seed version buckets with highest version 1520336276929118212
+2015-12-14 07:07:40.996 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.CoreContainer registering core: projc
+2015-12-14 07:07:41.697 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.S.Request [projc] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=2 status=0 QTime=1354 
+2015-12-14 07:07:41.790 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener done.
+2015-12-14 07:07:41.790 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2015-12-14 07:07:41.791 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2015-12-14 07:07:41.791 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore [projc] Registered new searcher Searcher@4af84f28[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_13(5.3.0):C4117/319:delGen=1) Uninverting(_14(5.3.0):C6998/153:delGen=2) Uninverting(_15(5.3.0):C3736/551:delGen=2) Uninverting(_16(5.3.0):C11310/49:delGen=1)))}
+2015-12-14 07:08:03.123 INFO  (qtp1249010640-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=4 
+2015-12-14 07:08:17.543 INFO  (qtp1249010640-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=14371 
+2015-12-14 07:08:26.542 INFO  (qtp1249010640-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=23165 
+2015-12-14 07:08:27.892 INFO  (qtp1249010640-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=980 
+2015-12-14 07:08:28.342 INFO  (qtp1249010640-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=208 
+2015-12-14 07:08:28.711 INFO  (qtp1249010640-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=2 
+2015-12-14 07:08:28.912 INFO  (qtp1249010640-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=25536 
+2015-12-14 07:08:29.362 INFO  (qtp1249010640-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=0 
+2015-12-14 07:08:29.444 INFO  (qtp1249010640-18) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=491 
+2015-12-14 07:08:31.573 INFO  (qtp1249010640-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=28159 
+2015-12-14 07:08:33.455 INFO  (qtp1249010640-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=1721 
+2015-12-14 07:08:44.947 INFO  (qtp1249010640-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=15135 
+2015-12-14 07:08:45.558 INFO  (qtp1249010640-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=16155 
+2015-12-14 07:08:47.566 INFO  (qtp1249010640-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=chennai&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1305 status=0 QTime=1268 
+2015-12-14 07:08:48.668 INFO  (qtp1249010640-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=45378 
+2015-12-14 07:08:48.791 INFO  (qtp1249010640-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=chennai&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1305 status=0 QTime=2084 
+2015-12-14 07:08:48.913 INFO  (qtp1249010640-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=chennai&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1305 status=0 QTime=41 
+2015-12-14 07:08:51.820 INFO  (qtp1249010640-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=chennai&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1305 status=0 QTime=4172 
+2015-12-14 07:08:53.043 INFO  (qtp1249010640-13) [   x:projc] o.a.s.s.SolrDispatchFilter Unable to write response, client closed connection or we are shutting down
+org.eclipse.jetty.io.EofException
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:192)
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:408)
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:302)
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:129)
+	at org.eclipse.jetty.server.HttpConnection$SendCallback.process(HttpConnection.java:684)
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:246)
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:208)
+	at org.eclipse.jetty.server.HttpConnection.send(HttpConnection.java:480)
+	at org.eclipse.jetty.server.HttpChannel.sendResponse(HttpChannel.java:768)
+	at org.eclipse.jetty.server.HttpChannel.write(HttpChannel.java:801)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:147)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:140)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:355)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at org.apache.solr.util.FastWriter.flush(FastWriter.java:141)
+	at org.apache.solr.util.FastWriter.flushBuffer(FastWriter.java:155)
+	at org.apache.solr.response.TextResponseWriter.close(TextResponseWriter.java:84)
+	at org.apache.solr.response.JSONResponseWriter.write(JSONResponseWriter.java:63)
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:53)
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:742)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:471)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.writev0(Native Method)
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:529)
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:172)
+	... 45 more
+2015-12-14 07:08:53.375 INFO  (qtp1249010640-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=chennai&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1305 status=0 QTime=4420 
+2015-12-14 07:08:55.496 INFO  (qtp1249010640-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25} hits=25089 status=0 QTime=52281 
+2015-12-14 07:08:55.947 INFO  (qtp1249010640-32) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=4294 
+2015-12-14 07:08:56.317 INFO  (qtp1249010640-12) [   x:projc] o.a.s.s.SolrDispatchFilter Unable to write response, client closed connection or we are shutting down
+org.eclipse.jetty.io.EofException
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:192)
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:408)
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:302)
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:129)
+	at org.eclipse.jetty.server.HttpConnection$SendCallback.process(HttpConnection.java:684)
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:246)
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:208)
+	at org.eclipse.jetty.server.HttpConnection.send(HttpConnection.java:480)
+	at org.eclipse.jetty.server.HttpChannel.sendResponse(HttpChannel.java:768)
+	at org.eclipse.jetty.server.HttpChannel.write(HttpChannel.java:801)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:147)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:140)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:355)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at org.apache.solr.util.FastWriter.flush(FastWriter.java:141)
+	at org.apache.solr.util.FastWriter.flushBuffer(FastWriter.java:155)
+	at org.apache.solr.response.TextResponseWriter.close(TextResponseWriter.java:84)
+	at org.apache.solr.response.JSONResponseWriter.write(JSONResponseWriter.java:63)
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:53)
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:742)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:471)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.writev0(Native Method)
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:529)
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:172)
+	... 45 more
+2015-12-14 07:08:57.579 INFO  (qtp1249010640-18) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=chennai&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25} hits=1305 status=0 QTime=11038 
+2015-12-14 07:08:57.910 INFO  (qtp1249010640-32) [   x:projc] o.a.s.s.SolrDispatchFilter Unable to write response, client closed connection or we are shutting down
+org.eclipse.jetty.io.EofException
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:192)
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:408)
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:302)
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:129)
+	at org.eclipse.jetty.server.HttpConnection$SendCallback.process(HttpConnection.java:684)
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:246)
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:208)
+	at org.eclipse.jetty.server.HttpConnection.send(HttpConnection.java:480)
+	at org.eclipse.jetty.server.HttpChannel.sendResponse(HttpChannel.java:768)
+	at org.eclipse.jetty.server.HttpChannel.write(HttpChannel.java:801)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:147)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:140)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:355)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at org.apache.solr.util.FastWriter.flush(FastWriter.java:141)
+	at org.apache.solr.util.FastWriter.flushBuffer(FastWriter.java:155)
+	at org.apache.solr.response.TextResponseWriter.close(TextResponseWriter.java:84)
+	at org.apache.solr.response.JSONResponseWriter.write(JSONResponseWriter.java:63)
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:53)
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:742)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:471)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.writev0(Native Method)
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:529)
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:172)
+	... 45 more
+2015-12-14 07:08:58.606 INFO  (qtp1249010640-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25} hits=25089 status=0 QTime=6991 
+2015-12-14 07:09:09.869 INFO  (qtp1249010640-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=chennai&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1305 status=0 QTime=17641 
+2015-12-14 07:09:10.319 INFO  (qtp1249010640-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=52286 
+2015-12-14 07:10:00.933 ERROR (qtp1249010640-16) [   x:projc] o.a.s.s.SolrDispatchFilter null:java.io.IOException: java.util.concurrent.TimeoutException: Idle timeout expired: 50000/50000 ms
+	at org.eclipse.jetty.util.SharedBlockingCallback$Blocker.block(SharedBlockingCallback.java:234)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:141)
+	at org.eclipse.jetty.server.HttpOutput.flush(HttpOutput.java:242)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at org.apache.solr.util.FastWriter.flush(FastWriter.java:137)
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:54)
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:742)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:471)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.util.concurrent.TimeoutException: Idle timeout expired: 50000/50000 ms
+	at org.eclipse.jetty.io.IdleTimeout.checkIdleTimeout(IdleTimeout.java:161)
+	at org.eclipse.jetty.io.IdleTimeout$1.run(IdleTimeout.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more
+
+2015-12-14 07:10:01.302 ERROR (qtp1249010640-19) [   x:projc] o.a.s.s.SolrDispatchFilter null:java.io.IOException: java.util.concurrent.TimeoutException: Idle timeout expired: 50000/50000 ms
+	at org.eclipse.jetty.util.SharedBlockingCallback$Blocker.block(SharedBlockingCallback.java:234)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:141)
+	at org.eclipse.jetty.server.HttpOutput.flush(HttpOutput.java:242)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at org.apache.solr.util.FastWriter.flush(FastWriter.java:137)
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:54)
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:742)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:471)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.util.concurrent.TimeoutException: Idle timeout expired: 50000/50000 ms
+	at org.eclipse.jetty.io.IdleTimeout.checkIdleTimeout(IdleTimeout.java:161)
+	at org.eclipse.jetty.io.IdleTimeout$1.run(IdleTimeout.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more
+
+2015-12-14 07:10:50.933 ERROR (qtp1249010640-16) [   x:projc] o.a.s.s.SolrDispatchFilter null:java.io.IOException: java.util.concurrent.TimeoutException: Idle timeout expired: 50000/50000 ms
+	at org.eclipse.jetty.util.SharedBlockingCallback$Blocker.block(SharedBlockingCallback.java:234)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:141)
+	at org.eclipse.jetty.server.HttpOutput.flush(HttpOutput.java:242)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at org.apache.solr.util.FastWriter.flush(FastWriter.java:137)
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:54)
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:742)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:471)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.util.concurrent.TimeoutException: Idle timeout expired: 50000/50000 ms
+	at org.eclipse.jetty.io.IdleTimeout.checkIdleTimeout(IdleTimeout.java:161)
+	at org.eclipse.jetty.io.IdleTimeout$1.run(IdleTimeout.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more
+
+2015-12-14 07:10:50.933 WARN  (qtp1249010640-16) [   x:projc] o.e.j.s.Response Committed before 500 {msg=java.util.concurrent.TimeoutException: Idle timeout expired: 50000/50000 ms,trace=java.io.IOException: java.util.concurrent.TimeoutException: Idle timeout expired: 50000/50000 ms
+	at org.eclipse.jetty.util.SharedBlockingCallback$Blocker.block(SharedBlockingCallback.java:234)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:141)
+	at org.eclipse.jetty.server.HttpOutput.flush(HttpOutput.java:242)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at org.apache.solr.util.FastWriter.flush(FastWriter.java:137)
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:54)
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:742)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:471)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.util.concurrent.TimeoutException: Idle timeout expired: 50000/50000 ms
+	at org.eclipse.jetty.io.IdleTimeout.checkIdleTimeout(IdleTimeout.java:161)
+	at org.eclipse.jetty.io.IdleTimeout$1.run(IdleTimeout.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more
+,code=500}
+2015-12-14 07:10:50.934 WARN  (qtp1249010640-16) [   x:projc] o.e.j.s.ServletHandler /solr/projc/select
+java.lang.IllegalStateException: Committed
+	at org.eclipse.jetty.server.Response.resetBuffer(Response.java:1243)
+	at org.eclipse.jetty.server.Response.sendError(Response.java:567)
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:477)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2015-12-14 07:10:50.954 WARN  (qtp1249010640-16) [   x:projc] o.e.j.s.HttpChannel /solr/projc/select?q=chennai&fq=created_at:[2015-11-23T22:19:52.000Z%20TO%202015-12-12T22:17:57.000Z]&wt=json&rows=0&facet=true&facet.pivot=lang,tweet_hashtags&facet.limit=300&facet.pivot.mincount=0
+java.lang.IllegalStateException: Committed
+	at org.eclipse.jetty.server.Response.resetBuffer(Response.java:1243)
+	at org.eclipse.jetty.server.Response.sendError(Response.java:567)
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:477)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2015-12-14 07:10:51.022 WARN  (qtp1249010640-16) [   x:projc] o.e.j.s.HttpChannel Could not send response error 500: java.lang.IllegalStateException: Committed
+2015-12-14 07:10:51.302 ERROR (qtp1249010640-19) [   x:projc] o.a.s.s.SolrDispatchFilter null:java.io.IOException: java.util.concurrent.TimeoutException: Idle timeout expired: 50000/50000 ms
+	at org.eclipse.jetty.util.SharedBlockingCallback$Blocker.block(SharedBlockingCallback.java:234)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:141)
+	at org.eclipse.jetty.server.HttpOutput.flush(HttpOutput.java:242)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at org.apache.solr.util.FastWriter.flush(FastWriter.java:137)
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:54)
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:742)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:471)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.util.concurrent.TimeoutException: Idle timeout expired: 50000/50000 ms
+	at org.eclipse.jetty.io.IdleTimeout.checkIdleTimeout(IdleTimeout.java:161)
+	at org.eclipse.jetty.io.IdleTimeout$1.run(IdleTimeout.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more
+
+2015-12-14 07:10:51.303 WARN  (qtp1249010640-19) [   x:projc] o.e.j.s.Response Committed before 500 {msg=java.util.concurrent.TimeoutException: Idle timeout expired: 50000/50000 ms,trace=java.io.IOException: java.util.concurrent.TimeoutException: Idle timeout expired: 50000/50000 ms
+	at org.eclipse.jetty.util.SharedBlockingCallback$Blocker.block(SharedBlockingCallback.java:234)
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:141)
+	at org.eclipse.jetty.server.HttpOutput.flush(HttpOutput.java:242)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at org.apache.solr.util.FastWriter.flush(FastWriter.java:137)
+	at org.apache.solr.response.QueryResponseWriterUtil.writeQueryResponse(QueryResponseWriterUtil.java:54)
+	at org.apache.solr.servlet.HttpSolrCall.writeResponse(HttpSolrCall.java:742)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:471)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.util.concurrent.TimeoutException: Idle timeout expired: 50000/50000 ms
+	at org.eclipse.jetty.io.IdleTimeout.checkIdleTimeout(IdleTimeout.java:161)
+	at org.eclipse.jetty.io.IdleTimeout$1.run(IdleTimeout.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more
+,code=500}
+2015-12-14 07:10:51.303 WARN  (qtp1249010640-19) [   x:projc] o.e.j.s.ServletHandler /solr/projc/select
+java.lang.IllegalStateException: Committed
+	at org.eclipse.jetty.server.Response.resetBuffer(Response.java:1243)
+	at org.eclipse.jetty.server.Response.sendError(Response.java:567)
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:477)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2015-12-14 07:10:51.304 WARN  (qtp1249010640-19) [   x:projc] o.e.j.s.HttpChannel /solr/projc/select?q=*&fq=created_at:[2015-11-23T22:19:52.000Z%20TO%202015-12-12T22:17:57.000Z]&wt=json&rows=0&facet=true&facet.pivot=lang,tweet_hashtags&facet.limit=300&facet.pivot.mincount=0
+java.lang.IllegalStateException: Committed
+	at org.eclipse.jetty.server.Response.resetBuffer(Response.java:1243)
+	at org.eclipse.jetty.server.Response.sendError(Response.java:567)
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:658)
+	at org.apache.solr.servlet.HttpSolrCall.sendError(HttpSolrCall.java:646)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:477)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2015-12-14 07:10:51.304 WARN  (qtp1249010640-19) [   x:projc] o.e.j.s.HttpChannel Could not send response error 500: java.lang.IllegalStateException: Committed
+2015-12-14 07:56:43.523 INFO  (Thread-0) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@31f0ad0{HTTP/1.1}{0.0.0.0:8983}
+2015-12-14 07:56:43.524 INFO  (Thread-0) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=112499142
+2015-12-14 07:56:43.525 INFO  (Thread-0) [   x:projc] o.a.s.c.SolrCore [projc]  CLOSING SolrCore org.apache.solr.core.SolrCore@40542fa7
+2015-12-14 07:56:43.526 INFO  (Thread-0) [   x:projc] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=3663250,transaction_logs_total_number=1}
+2015-12-14 07:56:43.528 INFO  (Thread-0) [   x:projc] o.a.s.u.SolrCoreState Closing SolrCoreState
+2015-12-14 07:56:43.528 INFO  (Thread-0) [   x:projc] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2015-12-14 07:56:43.529 INFO  (Thread-0) [   x:projc] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2015-12-14 07:56:43.560 INFO  (Thread-0) [   x:projc] o.a.s.c.SolrCore [projc] Closing main searcher on request.
+2015-12-14 07:56:43.582 INFO  (Thread-0) [   x:projc] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2015-12-14 07:56:43.583 INFO  (Thread-0) [   x:projc] o.a.s.c.CachingDirectoryFactory looking to close /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index [CachedDir<<refCount=0;path=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index;done=false>>]
+2015-12-14 07:56:43.583 INFO  (Thread-0) [   x:projc] o.a.s.c.CachingDirectoryFactory Closing directory: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index
+2015-12-14 07:56:43.583 INFO  (Thread-0) [   x:projc] o.a.s.c.CachingDirectoryFactory looking to close /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data [CachedDir<<refCount=0;path=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data;done=false>>]
+2015-12-14 07:56:43.583 INFO  (Thread-0) [   x:projc] o.a.s.c.CachingDirectoryFactory Closing directory: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data
+2015-12-14 07:56:43.585 INFO  (Thread-0) [   x:projc] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@352abdf5{/solr,file:/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp/,UNAVAILABLE}{/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp}

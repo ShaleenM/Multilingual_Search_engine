@@ -1,0 +1,955 @@
+2015-12-17 10:38:24.478 INFO  (main) [   ] o.e.j.u.log Logging initialized @1108ms
+2015-12-17 10:38:24.947 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-12-17 10:38:24.962 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-12-17 10:38:24.965 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/home/padidelavamshikrishna/solr/solr-5.3.0/server/contexts/] at interval 0
+2015-12-17 10:38:26.138 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-12-17 10:38:26.172 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@596e1d6b{/solr,file:/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp/,STARTING}{/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-12-17 10:38:26.193 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=698129@aa711
+2015-12-17 10:38:26.257 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-12-17 10:38:26.258 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr
+2015-12-17 10:38:26.263 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/'
+2015-12-17 10:38:26.608 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/solr.xml
+2015-12-17 10:38:26.862 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr
+2015-12-17 10:38:26.999 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1538625637
+2015-12-17 10:38:26.999 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/]
+2015-12-17 10:38:26.999 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/lib
+2015-12-17 10:38:27.000 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/lib).
+2015-12-17 10:38:27.033 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-12-17 10:38:27.744 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-12-17 10:38:27.749 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-12-17 10:38:27.750 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-12-17 10:38:27.753 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-12-17 10:38:27.753 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-12-17 10:38:27.815 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr
+2015-12-17 10:38:27.869 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=projc, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc, absoluteInstDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/, dataDir=data/}
+2015-12-17 10:38:27.869 INFO  (main) [   ] o.a.s.c.CoresLocator Found core projc in /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/
+2015-12-17 10:38:27.878 INFO  (main) [   ] o.a.s.c.CoresLocator Found 1 core definitions
+2015-12-17 10:38:27.885 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/'
+2015-12-17 10:38:27.885 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/home/padidelavamshikrishna/solr/solr-5.3.0/server
+2015-12-17 10:38:27.886 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-12-17 10:38:27.934 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@596e1d6b{/solr,file:/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp/,AVAILABLE}{/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp}
+2015-12-17 10:38:27.971 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@513e5f5a{HTTP/1.1}{0.0.0.0:8983}
+2015-12-17 10:38:27.972 INFO  (main) [   ] o.e.j.s.Server Started @4604ms
+2015-12-17 10:38:28.048 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-12-17 10:38:28.064 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-12-17 10:38:28.067 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-dataimporthandler-extras-5.3.0.jar' to classloader
+2015-12-17 10:38:28.067 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-dataimporthandler-5.3.0.jar' to classloader
+2015-12-17 10:38:28.072 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-12-17 10:38:28.073 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-12-17 10:38:28.073 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-12-17 10:38:28.073 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-12-17 10:38:28.073 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-12-17 10:38:28.073 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-12-17 10:38:28.073 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-12-17 10:38:28.073 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-12-17 10:38:28.073 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-12-17 10:38:28.073 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-12-17 10:38:28.074 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-12-17 10:38:28.074 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-12-17 10:38:28.074 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-12-17 10:38:28.074 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-12-17 10:38:28.074 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-12-17 10:38:28.074 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-12-17 10:38:28.074 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-12-17 10:38:28.074 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-12-17 10:38:28.075 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-12-17 10:38:28.075 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-12-17 10:38:28.075 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-12-17 10:38:28.075 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-12-17 10:38:28.075 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-12-17 10:38:28.075 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-12-17 10:38:28.075 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-12-17 10:38:28.075 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-12-17 10:38:28.075 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-12-17 10:38:28.075 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-12-17 10:38:28.076 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-12-17 10:38:28.076 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-12-17 10:38:28.076 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-12-17 10:38:28.076 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-12-17 10:38:28.076 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-12-17 10:38:28.077 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-cell-5.3.0.jar' to classloader
+2015-12-17 10:38:28.088 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-12-17 10:38:28.088 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-12-17 10:38:28.088 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-12-17 10:38:28.088 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-12-17 10:38:28.088 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-12-17 10:38:28.088 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-12-17 10:38:28.088 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-12-17 10:38:28.089 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-12-17 10:38:28.089 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-clustering-5.3.0.jar' to classloader
+2015-12-17 10:38:28.091 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-12-17 10:38:28.091 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-12-17 10:38:28.092 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-langid-5.3.0.jar' to classloader
+2015-12-17 10:38:28.096 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-12-17 10:38:28.096 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-12-17 10:38:28.096 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-12-17 10:38:28.096 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-12-17 10:38:28.097 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/home/padidelavamshikrishna/solr/solr-5.3.0/dist/solr-velocity-5.3.0.jar' to classloader
+2015-12-17 10:38:29.168 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-12-17 10:38:29.248 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.2.0
+2015-12-17 10:38:29.734 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-12-17 10:38:29.745 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf/schema.xml
+2015-12-17 10:38:29.932 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [projc] Schema name=solr
+2015-12-17 10:38:30.781 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-12-17 10:38:31.016 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-12-17 10:38:31.038 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-12-17 10:38:31.349 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf'
+2015-12-17 10:38:31.350 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'projc' using configuration from instancedir /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/
+2015-12-17 10:38:31.350 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-12-17 10:38:31.373 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore [[projc] ] Opening new SolrCore at [/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/], dataDir=[null]
+2015-12-17 10:38:31.375 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-12-17 10:38:31.380 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore [[projc] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-12-17 10:38:31.380 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore [[projc] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2015-12-17 10:38:31.392 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.CachingDirectoryFactory return new directory for /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data
+2015-12-17 10:38:31.394 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore New index directory detected: old=null new=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index/
+2015-12-17 10:38:31.395 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.CachingDirectoryFactory return new directory for /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index
+2015-12-17 10:38:31.420 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2015-12-17 10:38:31.421 INFO  (OldIndexDirectoryCleanupThreadForCore-projc) [   x:projc] o.a.s.c.SolrCore Looking for old index directories to cleanup for core projc in /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/
+2015-12-17 10:38:31.424 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2015-12-17 10:38:31.593 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-12-17 10:38:31.633 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-12-17 10:38:31.635 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-12-17 10:38:31.635 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-12-17 10:38:31.636 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-12-17 10:38:31.676 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2015-12-17 10:38:31.676 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-12-17 10:38:31.676 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-12-17 10:38:31.678 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2015-12-17 10:38:31.678 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/suggest' created with startup=lazy 
+2015-12-17 10:38:31.678 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2015-12-17 10:38:31.679 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-12-17 10:38:31.679 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2015-12-17 10:38:31.679 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.RequestHandlers Registered paths: /admin/logging,/admin/plugins,/admin/system,/admin/segments,/admin/file,/dataimport,/admin/luke,/update,/terms,/admin/threads,/schema,/query,/replication,/analysis/field,/browse,/admin/ping,/update/json/docs,/analysis/document,/select,/admin/mbeans,/update/csv,/elevate,/get,/update/json,/update/extract,/admin/properties,/tvrh,/spell,/config,/debug/dump,/suggest
+2015-12-17 10:38:31.681 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-12-17 10:38:31.691 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-12-17 10:38:31.691 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-12-17 10:38:31.740 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-12-17 10:38:31.740 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-12-17 10:38:31.813 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@70605759; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1i,generation=54}
+2015-12-17 10:38:31.813 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.SolrCore newest commit generation = 54
+2015-12-17 10:38:32.065 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.s.SolrIndexSearcher Opening Searcher@3d112885[projc] main
+2015-12-17 10:38:32.071 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf
+2015-12-17 10:38:32.072 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf}
+2015-12-17 10:38:32.083 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf
+2015-12-17 10:38:32.083 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-12-17 10:38:32.091 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2015-12-17 10:38:32.097 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2015-12-17 10:38:32.106 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2015-12-17 10:38:32.108 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf/elevate.xml
+2015-12-17 10:38:32.123 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-12-17 10:38:32.128 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@3d112885[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_17(5.3.0):C25089/10411:delGen=1) Uninverting(_18(5.3.0):C10876/465:delGen=1)))}
+2015-12-17 10:38:32.140 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-12-17 10:38:32.141 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-12-17 10:38:32.219 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.VersionInfo Found MAX value 1520798334785159174 from Terms for _version_ in index
+2015-12-17 10:38:32.223 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.u.UpdateLog Took 83 ms to seed version buckets with highest version 1520798334785159174
+2015-12-17 10:38:32.224 INFO  (coreLoadExecutor-6-thread-1) [   x:projc] o.a.s.c.CoreContainer registering core: projc
+2015-12-17 10:38:32.276 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.S.Request [projc] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=2 status=0 QTime=144 
+2015-12-17 10:38:32.308 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener done.
+2015-12-17 10:38:32.308 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2015-12-17 10:38:32.309 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2015-12-17 10:38:32.309 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore [projc] Registered new searcher Searcher@3d112885[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_17(5.3.0):C25089/10411:delGen=1) Uninverting(_18(5.3.0):C10876/465:delGen=1)))}
+2015-12-17 10:38:38.225 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=142 
+2015-12-17 10:38:40.375 INFO  (qtp303791137-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=10 
+2015-12-17 10:38:40.404 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=10 
+2015-12-17 10:38:40.792 ERROR (qtp303791137-12) [   x:projc] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field: "message"
+	at org.apache.solr.schema.IndexSchema.getField(IndexSchema.java:1229)
+	at org.apache.solr.request.SimpleFacets.getTermCounts(SimpleFacets.java:416)
+	at org.apache.solr.request.SimpleFacets.getTermCounts(SimpleFacets.java:385)
+	at org.apache.solr.request.SimpleFacets$3.call(SimpleFacets.java:628)
+	at org.apache.solr.request.SimpleFacets$3.call(SimpleFacets.java:619)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at org.apache.solr.request.SimpleFacets$2.execute(SimpleFacets.java:573)
+	at org.apache.solr.request.SimpleFacets.getFacetFieldCounts(SimpleFacets.java:644)
+	at org.apache.solr.handler.component.FacetComponent.getFacetCounts(FacetComponent.java:294)
+	at org.apache.solr.handler.component.FacetComponent.process(FacetComponent.java:256)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:277)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-12-17 10:38:40.792 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=100&facet.field=message&wt=json&fq=created_at:[NOW/MINUTE-15MINUTE+TO+NOW/MINUTE%2B1MINUTE]&rows=0} hits=0 status=400 QTime=55 
+2015-12-17 10:38:41.322 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={sort=id+desc&q=*&wt=json&fq=created_at:[NOW/MINUTE-15MINUTE+TO+NOW/MINUTE%2B1MINUTE]&rows=500} hits=0 status=0 QTime=510 
+2015-12-17 10:38:43.705 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=NOW/MINUTE-15MINUTE&facet.range=created_at&facet.range.gap=%2B10SECOND&facet.range.end=NOW/MINUTE%2B1MINUTE&wt=json&fq=created_at:[NOW/MINUTE-15MINUTE+TO+NOW/MINUTE%2B1MINUTE]&rows=0} hits=0 status=0 QTime=182 
+2015-12-17 10:38:45.693 INFO  (qtp303791137-13) [   x:projc] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-12-17 10:38:50.302 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@70605759; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1i,generation=54}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@70605759; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1j,generation=55}
+2015-12-17 10:38:50.303 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.SolrCore newest commit generation = 55
+2015-12-17 10:38:50.305 INFO  (qtp303791137-13) [   x:projc] o.a.s.s.SolrIndexSearcher Opening Searcher@307c5cac[projc] main
+2015-12-17 10:38:50.312 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@307c5cac[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_17(5.3.0):C25089/21904:delGen=2) Uninverting(_18(5.3.0):C10876/4031:delGen=2) Uninverting(_19(5.3.0):C15427/368:delGen=1)))}
+2015-12-17 10:38:50.312 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener done.
+2015-12-17 10:38:50.314 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore [projc] Registered new searcher Searcher@307c5cac[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_17(5.3.0):C25089/21904:delGen=2) Uninverting(_18(5.3.0):C10876/4031:delGen=2) Uninverting(_19(5.3.0):C15427/368:delGen=1)))}
+2015-12-17 10:38:50.315 INFO  (qtp303791137-13) [   x:projc] o.a.s.u.UpdateHandler end_commit_flush
+2015-12-17 10:38:50.315 INFO  (qtp303791137-13) [   x:projc] o.a.s.u.p.LogUpdateProcessor [projc] webapp=/solr path=/update/json params={commit=true} {add=[675093952526163968 (1520800857990365184), 675088612300595200 (1520800858046988288), 675087533349470208 (1520800858049085440), 675086512082538496 (1520800858051182592), 675086407690493957 (1520800858052231168), 675081454251089920 (1520800858054328320), 675080629109841922 (1520800858056425472), 675080235608576000 (1520800858057474048), 675079262446223360 (1520800858059571200), 675078816612687873 (1520800858061668352), ... (15427 adds)],commit=} 0 11695
+2015-12-17 10:38:54.696 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=82 
+2015-12-17 10:38:56.659 INFO  (qtp303791137-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 10:38:56.726 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=23 
+2015-12-17 10:38:58.313 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=1263 
+2015-12-17 10:38:58.470 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=1325 
+2015-12-17 10:38:59.598 INFO  (qtp303791137-17) [   x:projc] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-12-17 10:38:59.980 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=0 
+2015-12-17 10:39:00.302 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25089 status=0 QTime=123 
+2015-12-17 10:39:00.319 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@70605759; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1j,generation=55}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@70605759; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1k,generation=56}
+2015-12-17 10:39:00.319 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.SolrCore newest commit generation = 56
+2015-12-17 10:39:00.322 INFO  (qtp303791137-17) [   x:projc] o.a.s.s.SolrIndexSearcher Opening Searcher@297978c5[projc] main
+2015-12-17 10:39:00.324 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@297978c5[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_17(5.3.0):C25089/21904:delGen=2) Uninverting(_18(5.3.0):C10876/10875:delGen=3) Uninverting(_19(5.3.0):C15427/375:delGen=2) Uninverting(_1a(5.3.0):C6997/146:delGen=1)))}
+2015-12-17 10:39:00.324 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener done.
+2015-12-17 10:39:00.324 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore [projc] Registered new searcher Searcher@297978c5[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_17(5.3.0):C25089/21904:delGen=2) Uninverting(_18(5.3.0):C10876/10875:delGen=3) Uninverting(_19(5.3.0):C15427/375:delGen=2) Uninverting(_1a(5.3.0):C6997/146:delGen=1)))}
+2015-12-17 10:39:00.327 INFO  (qtp303791137-17) [   x:projc] o.a.s.u.UpdateHandler end_commit_flush
+2015-12-17 10:39:00.327 INFO  (qtp303791137-17) [   x:projc] o.a.s.u.p.LogUpdateProcessor [projc] webapp=/solr path=/update/json params={commit=true} {add=[674377890109063168 (1520800877977272320), 674377885839433729 (1520800877997195264), 674377884669247488 (1520800877997195265), 674377846295363584 (1520800877997195266), 674377846144520193 (1520800877997195267), 674377826456457216 (1520800877997195268), 674377825282088961 (1520800877997195269), 674377790477737984 (1520800877997195270), 674377785817866241 (1520800877998243840), 674377781862645760 (1520800877998243841), ... (6997 adds)],commit=} 0 2646
+2015-12-17 10:39:02.425 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=953 
+2015-12-17 10:39:03.244 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=122 
+2015-12-17 10:39:04.094 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=1172 
+2015-12-17 10:39:29.107 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=cloud&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=5 status=0 QTime=28 
+2015-12-17 10:39:31.421 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=cloud&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=5 status=0 QTime=4 
+2015-12-17 10:39:31.437 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cloud&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=5 status=0 QTime=2 
+2015-12-17 10:39:31.822 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cloud&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=5 status=0 QTime=390 
+2015-12-17 10:39:32.236 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cloud&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=5 status=0 QTime=681 
+2015-12-17 10:39:32.427 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cloud&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=5 status=0 QTime=878 
+2015-12-17 10:39:32.500 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cloud+cloud+??????+cloud+cloud&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=18 status=0 QTime=1093 
+2015-12-17 10:39:34.438 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=cloud&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=5 status=0 QTime=0 
+2015-12-17 10:39:35.154 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=cloud&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=5 status=0 QTime=1 
+2015-12-17 10:39:35.167 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cloud&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=5 status=0 QTime=1 
+2015-12-17 10:39:35.188 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cloud&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=5 status=0 QTime=3 
+2015-12-17 10:39:35.215 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cloud&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=5 status=0 QTime=54 
+2015-12-17 10:39:35.261 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cloud+cloud+??????+cloud+cloud&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=18 status=0 QTime=121 
+2015-12-17 10:39:35.373 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cloud&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=5 status=0 QTime=56 
+2015-12-17 10:40:04.693 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=ISIS&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=5 
+2015-12-17 10:40:05.437 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=ISIS&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=1 
+2015-12-17 10:40:05.493 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=87 
+2015-12-17 10:40:05.496 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=76 
+2015-12-17 10:40:05.507 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=13 
+2015-12-17 10:40:05.803 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=294 
+2015-12-17 10:40:05.832 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS+ISIS+?????+ISIS+ISIS&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1982 status=0 QTime=415 
+2015-12-17 10:40:32.830 INFO  (qtp303791137-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 10:40:32.878 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=5 
+2015-12-17 10:40:33.493 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25089 status=0 QTime=15 
+2015-12-17 10:40:33.616 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=16 
+2015-12-17 10:40:35.148 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=3 
+2015-12-17 10:40:36.044 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=28 
+2015-12-17 10:40:36.047 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=117 
+2015-12-17 10:40:36.748 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=0 
+2015-12-17 10:40:36.972 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=127 
+2015-12-17 10:41:01.398 INFO  (qtp303791137-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 10:41:01.415 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=ISIS&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=6 
+2015-12-17 10:41:02.116 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=ISIS&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=2 
+2015-12-17 10:41:02.230 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=1 
+2015-12-17 10:41:02.291 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=3 
+2015-12-17 10:41:02.312 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=119 
+2015-12-17 10:41:02.319 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=40 
+2015-12-17 10:41:02.478 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS+ISIS+?????+ISIS+ISIS&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=25&defType=dismax} hits=727 status=0 QTime=352 
+2015-12-17 10:41:02.580 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=244 
+2015-12-17 10:41:14.319 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=ISIS&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=(location:"")&rows=0} hits=720 status=0 QTime=0 
+2015-12-17 10:41:15.030 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=ISIS&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=(location:"")&rows=0} hits=720 status=0 QTime=14 
+2015-12-17 10:41:15.056 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=(location:"")&rows=0} hits=720 status=0 QTime=1 
+2015-12-17 10:41:15.078 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS+ISIS+?????+ISIS+ISIS&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=(location:"")&rows=25&defType=dismax} hits=727 status=0 QTime=56 
+2015-12-17 10:41:15.152 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=(location:"")&rows=0} hits=720 status=0 QTime=3 
+2015-12-17 10:41:15.248 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=(location:"")&rows=0} hits=720 status=0 QTime=149 
+2015-12-17 10:41:15.279 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=(location:"")&rows=0} hits=720 status=0 QTime=163 
+2015-12-17 10:41:22.878 INFO  (qtp303791137-12) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 10:41:22.892 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=ISIS&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=0 
+2015-12-17 10:41:23.641 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=ISIS&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=18 
+2015-12-17 10:41:23.645 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=1 
+2015-12-17 10:41:23.670 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=2 
+2015-12-17 10:41:23.732 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=13 
+2015-12-17 10:41:23.774 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS+ISIS+?????+ISIS+ISIS&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1982 status=0 QTime=145 
+2015-12-17 10:41:23.822 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=149 
+2015-12-17 10:41:23.825 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=176 
+2015-12-17 10:41:35.175 INFO  (qtp303791137-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 10:41:35.187 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=ISIS&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=0 
+2015-12-17 10:41:36.006 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=8 
+2015-12-17 10:41:36.010 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=ISIS&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=43 
+2015-12-17 10:41:36.022 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=39 
+2015-12-17 10:41:36.114 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=5 
+2015-12-17 10:41:36.120 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=120 
+2015-12-17 10:41:36.138 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS+ISIS+?????+ISIS+ISIS&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=25&defType=dismax} hits=727 status=0 QTime=201 
+2015-12-17 10:41:36.191 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=210 
+2015-12-17 10:41:42.771 INFO  (qtp303791137-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 10:41:42.796 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=ISIS&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=0 
+2015-12-17 10:41:43.541 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=ISIS&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=9 
+2015-12-17 10:41:43.552 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=1 
+2015-12-17 10:41:43.574 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=2 
+2015-12-17 10:41:43.629 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=4 
+2015-12-17 10:41:43.710 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS+ISIS+?????+ISIS+ISIS&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1982 status=0 QTime=183 
+2015-12-17 10:41:43.720 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=142 
+2015-12-17 10:41:43.770 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=217 
+2015-12-17 10:41:52.493 INFO  (qtp303791137-12) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 10:41:52.497 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=ISIS&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=0 
+2015-12-17 10:41:53.279 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=ISIS&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=65 
+2015-12-17 10:41:53.280 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=45 
+2015-12-17 10:41:53.299 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=69 
+2015-12-17 10:41:53.306 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=53 
+2015-12-17 10:41:53.358 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS+ISIS+?????+ISIS+ISIS&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=25&defType=dismax} hits=727 status=0 QTime=158 
+2015-12-17 10:41:53.373 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=14 
+2015-12-17 10:41:53.439 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=location:""&rows=0} hits=720 status=0 QTime=218 
+2015-12-17 10:42:09.511 INFO  (qtp303791137-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 10:42:09.520 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=ISIS&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=0 
+2015-12-17 10:42:10.222 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=ISIS&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=5 
+2015-12-17 10:42:10.248 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=0 
+2015-12-17 10:42:10.253 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS+ISIS+?????+ISIS+ISIS&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1982 status=0 QTime=33 
+2015-12-17 10:42:10.255 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=16 
+2015-12-17 10:42:10.287 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=2 
+2015-12-17 10:42:10.293 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=4 
+2015-12-17 10:42:10.335 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=ISIS&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1970 status=0 QTime=63 
+2015-12-17 10:43:04.462 INFO  (qtp303791137-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1450348964096&wt=json} status=0 QTime=0 
+2015-12-17 10:43:04.582 INFO  (qtp303791137-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={_=1450348964182&wt=json} status=0 QTime=30 
+2015-12-17 10:43:07.703 ERROR (qtp303791137-20) [   x:projc] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf/admin-extra.menu-top.html]
+2015-12-17 10:43:07.703 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&_=1450348967339&contentType=text/html;charset%3Dutf-8} status=404 QTime=2 
+2015-12-17 10:43:07.717 ERROR (qtp303791137-19) [   x:projc] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf/admin-extra.menu-bottom.html]
+2015-12-17 10:43:07.717 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&_=1450348967339&contentType=text/html;charset%3Dutf-8} status=404 QTime=0 
+2015-12-17 10:43:07.792 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&_=1450348967437&show=index&wt=json} status=0 QTime=0 
+2015-12-17 10:43:07.807 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/replication params={command=details&_=1450348967441&wt=json} status=0 QTime=6 
+2015-12-17 10:43:07.823 ERROR (qtp303791137-15) [   x:projc] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/conf/admin-extra.html]
+2015-12-17 10:43:07.823 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1450348967444} status=404 QTime=0 
+2015-12-17 10:43:07.825 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/system params={_=1450348967443&wt=json} status=0 QTime=11 
+2015-12-17 10:43:07.830 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/ping params={action=status&_=1450348967446&wt=json} status=503 QTime=0 
+2015-12-17 10:43:09.355 INFO  (qtp303791137-20) [   x:projc] o.a.s.u.UpdateHandler start commit{,optimize=true,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-12-17 10:43:12.197 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@70605759; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1k,generation=56}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@70605759; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1l,generation=57}
+2015-12-17 10:43:12.197 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.SolrCore newest commit generation = 57
+2015-12-17 10:43:12.204 INFO  (qtp303791137-20) [   x:projc] o.a.s.s.SolrIndexSearcher Opening Searcher@7dc89e0a[projc] main
+2015-12-17 10:43:12.205 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@7dc89e0a[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1b(5.3.0):C25089)))}
+2015-12-17 10:43:12.205 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener done.
+2015-12-17 10:43:12.205 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore [projc] Registered new searcher Searcher@7dc89e0a[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1b(5.3.0):C25089)))}
+2015-12-17 10:43:12.212 INFO  (qtp303791137-20) [   x:projc] o.a.s.u.UpdateHandler end_commit_flush
+2015-12-17 10:43:12.217 INFO  (qtp303791137-20) [   x:projc] o.a.s.u.p.LogUpdateProcessor [projc] webapp=/solr path=/update params={optimize=true&_=1450348968974&wt=json&waitFlush=true} {optimize=} 0 2861
+2015-12-17 10:43:28.355 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25089 status=0 QTime=52 
+2015-12-17 10:43:28.450 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=153 
+2015-12-17 10:43:28.469 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=138 
+2015-12-17 10:43:28.487 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=140 
+2015-12-17 10:43:28.489 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=106 
+2015-12-17 10:43:28.518 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=167 
+2015-12-17 10:43:28.584 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25089 status=0 QTime=54 
+2015-12-17 10:43:31.887 INFO  (qtp303791137-19) [   x:projc] o.a.s.s.SolrIndexSearcher Opening Searcher@2baabf7a[projc] realtime
+2015-12-17 10:43:31.888 INFO  (qtp303791137-19) [   x:projc] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-12-17 10:43:31.977 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@70605759; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1l,generation=57}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@70605759; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1m,generation=58}
+2015-12-17 10:43:31.977 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.SolrCore newest commit generation = 58
+2015-12-17 10:43:31.978 INFO  (qtp303791137-19) [   x:projc] o.a.s.s.SolrIndexSearcher Opening Searcher@da535d[projc] main
+2015-12-17 10:43:31.978 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@da535d[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2015-12-17 10:43:31.978 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener done.
+2015-12-17 10:43:31.979 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore [projc] Registered new searcher Searcher@da535d[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2015-12-17 10:43:31.982 INFO  (qtp303791137-19) [   x:projc] o.a.s.u.UpdateHandler end_commit_flush
+2015-12-17 10:43:31.984 INFO  (qtp303791137-19) [   x:projc] o.a.s.u.p.LogUpdateProcessor [projc] webapp=/solr path=/update params={commit=true} {deleteByQuery=*:* (-1520801165334282240),commit=} 0 351
+2015-12-17 10:43:35.740 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=0 status=0 QTime=0 
+2015-12-17 10:43:35.753 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=0 status=0 QTime=0 
+2015-12-17 10:43:35.776 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=0 status=0 QTime=14 
+2015-12-17 10:43:35.814 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=0 status=0 QTime=4 
+2015-12-17 10:43:35.825 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=0 status=0 QTime=0 
+2015-12-17 10:43:35.848 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=0 status=0 QTime=14 
+2015-12-17 10:43:35.873 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=0 status=0 QTime=0 
+2015-12-17 10:43:42.428 INFO  (qtp303791137-17) [   x:projc] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-12-17 10:43:43.143 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@70605759; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1m,generation=58}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@70605759; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1n,generation=59}
+2015-12-17 10:43:43.143 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.SolrCore newest commit generation = 59
+2015-12-17 10:43:43.150 INFO  (qtp303791137-17) [   x:projc] o.a.s.s.SolrIndexSearcher Opening Searcher@164725d4[projc] main
+2015-12-17 10:43:43.151 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@164725d4[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1c(5.3.0):C6997/146:delGen=1)))}
+2015-12-17 10:43:43.151 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener done.
+2015-12-17 10:43:43.151 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore [projc] Registered new searcher Searcher@164725d4[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1c(5.3.0):C6997/146:delGen=1)))}
+2015-12-17 10:43:43.152 INFO  (qtp303791137-17) [   x:projc] o.a.s.u.UpdateHandler end_commit_flush
+2015-12-17 10:43:43.152 INFO  (qtp303791137-17) [   x:projc] o.a.s.u.p.LogUpdateProcessor [projc] webapp=/solr path=/update/json params={commit=true} {add=[674377890109063168 (1520801175593549824), 674377885839433729 (1520801175595646976), 674377884669247488 (1520801175601938432), 674377846295363584 (1520801175601938433), 674377846144520193 (1520801175601938434), 674377826456457216 (1520801175601938435), 674377825282088961 (1520801175602987008), 674377790477737984 (1520801175602987009), 674377785817866241 (1520801175604035584), 674377781862645760 (1520801175604035585), ... (6997 adds)],commit=} 0 1630
+2015-12-17 10:43:47.172 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=6851 status=0 QTime=1 
+2015-12-17 10:43:47.184 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=6851 status=0 QTime=5 
+2015-12-17 10:43:47.196 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=6851 status=0 QTime=1 
+2015-12-17 10:43:47.213 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=6851 status=0 QTime=12 
+2015-12-17 10:43:47.217 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=6851 status=0 QTime=1 
+2015-12-17 10:43:47.222 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=6851 status=0 QTime=1 
+2015-12-17 10:43:47.345 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=6851 status=0 QTime=11 
+2015-12-17 10:43:52.829 INFO  (qtp303791137-17) [   x:projc] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-12-17 10:43:53.760 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@70605759; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1n,generation=59}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@70605759; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1o,generation=60}
+2015-12-17 10:43:53.761 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.SolrCore newest commit generation = 60
+2015-12-17 10:43:53.762 INFO  (qtp303791137-17) [   x:projc] o.a.s.s.SolrIndexSearcher Opening Searcher@63df2ac1[projc] main
+2015-12-17 10:43:53.762 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@63df2ac1[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1c(5.3.0):C6997/153:delGen=2) Uninverting(_1d(5.3.0):C15427/368:delGen=1)))}
+2015-12-17 10:43:53.763 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener done.
+2015-12-17 10:43:53.763 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore [projc] Registered new searcher Searcher@63df2ac1[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1c(5.3.0):C6997/153:delGen=2) Uninverting(_1d(5.3.0):C15427/368:delGen=1)))}
+2015-12-17 10:43:53.764 INFO  (qtp303791137-17) [   x:projc] o.a.s.u.UpdateHandler end_commit_flush
+2015-12-17 10:43:53.764 INFO  (qtp303791137-17) [   x:projc] o.a.s.u.p.LogUpdateProcessor [projc] webapp=/solr path=/update/json params={commit=true} {add=[675093952526163968 (1520801186084552704), 675088612300595200 (1520801186087698432), 675087533349470208 (1520801186087698433), 675086512082538496 (1520801186087698434), 675086407690493957 (1520801186087698435), 675081454251089920 (1520801186087698436), 675080629109841922 (1520801186087698437), 675080235608576000 (1520801186087698438), 675079262446223360 (1520801186088747008), 675078816612687873 (1520801186088747009), ... (15427 adds)],commit=} 0 2236
+2015-12-17 10:43:54.287 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=21903 status=0 QTime=4 
+2015-12-17 10:43:54.296 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=21903 status=0 QTime=5 
+2015-12-17 10:43:54.315 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=21903 status=0 QTime=8 
+2015-12-17 10:43:54.328 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=21903 status=0 QTime=7 
+2015-12-17 10:43:54.337 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=21903 status=0 QTime=3 
+2015-12-17 10:43:54.388 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=21903 status=0 QTime=70 
+2015-12-17 10:43:54.482 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=21903 status=0 QTime=74 
+2015-12-17 10:44:00.311 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=21903 status=0 QTime=0 
+2015-12-17 10:44:00.319 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=21903 status=0 QTime=3 
+2015-12-17 10:44:00.338 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=21903 status=0 QTime=4 
+2015-12-17 10:44:00.364 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=21903 status=0 QTime=23 
+2015-12-17 10:44:00.400 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=21903 status=0 QTime=2 
+2015-12-17 10:44:00.506 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=21903 status=0 QTime=22 
+2015-12-17 10:44:00.521 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=21903 status=0 QTime=10 
+2015-12-17 10:44:27.595 INFO  (qtp303791137-13) [   x:projc] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-12-17 10:44:29.414 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@70605759; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1o,generation=60}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@70605759; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1p,generation=61}
+2015-12-17 10:44:29.414 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.SolrCore newest commit generation = 61
+2015-12-17 10:44:29.416 INFO  (qtp303791137-13) [   x:projc] o.a.s.s.SolrIndexSearcher Opening Searcher@47ee8590[projc] main
+2015-12-17 10:44:29.417 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@47ee8590[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1c(5.3.0):C6997/153:delGen=2) Uninverting(_1d(5.3.0):C15427/576:delGen=2) Uninverting(_1e(5.3.0):C3736/343:delGen=1)))}
+2015-12-17 10:44:29.417 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore QuerySenderListener done.
+2015-12-17 10:44:29.417 INFO  (searcherExecutor-7-thread-1-processing-x:projc) [   x:projc] o.a.s.c.SolrCore [projc] Registered new searcher Searcher@47ee8590[projc] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1c(5.3.0):C6997/153:delGen=2) Uninverting(_1d(5.3.0):C15427/576:delGen=2) Uninverting(_1e(5.3.0):C3736/343:delGen=1)))}
+2015-12-17 10:44:29.418 INFO  (qtp303791137-13) [   x:projc] o.a.s.u.UpdateHandler end_commit_flush
+2015-12-17 10:44:29.418 INFO  (qtp303791137-13) [   x:projc] o.a.s.u.p.LogUpdateProcessor [projc] webapp=/solr path=/update/json params={commit=true} {add=[673290222709440512 (1520801223587921920), 673289329876328448 (1520801223590019072), 673289228432855042 (1520801223590019073), 673289051953344514 (1520801223590019074), 673288681692774400 (1520801223590019075), 673288489937555457 (1520801223590019076), 673288484791181314 (1520801223590019077), 673288135925723136 (1520801223590019078), 673288090358824960 (1520801223591067648), 673288016442597376 (1520801223591067649), ... (3736 adds)],commit=} 0 2126
+2015-12-17 10:44:34.225 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=14 
+2015-12-17 10:44:34.233 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=16 
+2015-12-17 10:44:34.256 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=17 
+2015-12-17 10:44:34.276 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=9 
+2015-12-17 10:44:34.286 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=2 
+2015-12-17 10:44:34.366 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=119 
+2015-12-17 10:44:34.499 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=121 
+2015-12-17 10:45:37.456 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=5 
+2015-12-17 10:45:39.958 INFO  (qtp303791137-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 10:45:39.960 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 10:45:40.112 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=3 
+2015-12-17 10:45:40.270 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=6 
+2015-12-17 10:45:41.009 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=3 
+2015-12-17 10:45:42.676 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=1 
+2015-12-17 10:45:42.695 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=23 
+2015-12-17 10:45:44.884 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=0 
+2015-12-17 10:45:44.943 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=30 
+2015-12-17 10:46:55.161 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=cancer&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1149 status=0 QTime=1 
+2015-12-17 10:46:56.764 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1149 status=0 QTime=18 
+2015-12-17 10:46:56.767 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1149 status=0 QTime=14 
+2015-12-17 10:46:56.768 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=cancer&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1149 status=0 QTime=30 
+2015-12-17 10:46:56.770 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1149 status=0 QTime=7 
+2015-12-17 10:46:56.794 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1149 status=0 QTime=31 
+2015-12-17 10:46:56.808 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer+cancer+???+Krebs+le+cancer&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1400 status=0 QTime=116 
+2015-12-17 10:47:57.684 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=0 
+2015-12-17 10:47:57.691 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=2 
+2015-12-17 10:47:57.700 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=5 
+2015-12-17 10:47:57.705 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=1 
+2015-12-17 10:47:57.739 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=30 
+2015-12-17 10:47:57.830 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=124 
+2015-12-17 10:47:57.832 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=90 
+2015-12-17 10:48:17.086 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=0 
+2015-12-17 10:48:17.094 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=3 
+2015-12-17 10:48:17.120 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=1 
+2015-12-17 10:48:17.125 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=3 
+2015-12-17 10:48:17.135 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=37 
+2015-12-17 10:48:17.259 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=128 
+2015-12-17 10:48:17.262 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=157 
+2015-12-17 10:48:28.257 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=0 
+2015-12-17 10:48:28.274 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=3 
+2015-12-17 10:48:28.276 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=1 
+2015-12-17 10:48:28.283 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=24 
+2015-12-17 10:48:28.290 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=28 
+2015-12-17 10:48:28.325 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=60 
+2015-12-17 10:48:28.333 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=37 
+2015-12-17 10:48:33.239 INFO  (qtp303791137-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 10:48:33.263 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=4 
+2015-12-17 10:48:33.267 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=text:"cancer"&rows=0} hits=1149 status=0 QTime=1 
+2015-12-17 10:48:33.265 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=text:"cancer"&rows=0} hits=1149 status=0 QTime=8 
+2015-12-17 10:48:33.294 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=text:"cancer"&rows=0} hits=1149 status=0 QTime=0 
+2015-12-17 10:48:33.300 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=text:"cancer"&rows=0} hits=1149 status=0 QTime=2 
+2015-12-17 10:48:33.330 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=text:"cancer"&rows=0} hits=1149 status=0 QTime=38 
+2015-12-17 10:48:33.342 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 10:48:33.347 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=text:"cancer"&rows=0} hits=1149 status=0 QTime=25 
+2015-12-17 10:48:39.905 INFO  (qtp303791137-12) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 10:48:39.909 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=0 
+2015-12-17 10:48:39.913 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=3 
+2015-12-17 10:48:39.929 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=11 
+2015-12-17 10:48:39.935 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=12 
+2015-12-17 10:48:39.945 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=2 
+2015-12-17 10:48:39.998 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=12 
+2015-12-17 10:48:40.028 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=107 
+2015-12-17 10:48:40.055 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=109 
+2015-12-17 10:48:47.046 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 10:48:49.700 INFO  (qtp303791137-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 10:48:49.752 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 10:48:49.884 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=3 
+2015-12-17 10:48:50.030 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=4 
+2015-12-17 10:48:50.644 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=3 
+2015-12-17 10:48:52.387 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=27 
+2015-12-17 10:48:52.423 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=5 
+2015-12-17 10:48:54.659 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=0 
+2015-12-17 10:48:54.795 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=32 
+2015-12-17 10:50:41.537 ERROR (qtp303791137-13) [   x:projc] o.a.s.c.SolrCore org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse '-location:': Encountered "<EOF>" at line 1, column 10.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:215)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse '-location:': Encountered "<EOF>" at line 1, column 10.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:155)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:204)
+	... 27 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 10.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:649)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:531)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:216)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	... 30 more
+
+2015-12-17 10:50:41.537 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=-location:&fq=-location:&rows=0} status=400 QTime=1 
+2015-12-17 10:51:15.713 ERROR (qtp303791137-15) [   x:projc] o.a.s.c.SolrCore org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse '-location:': Encountered "<EOF>" at line 1, column 10.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:215)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse '-location:': Encountered "<EOF>" at line 1, column 10.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:155)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:204)
+	... 27 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 10.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:649)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:531)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:216)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	... 30 more
+
+2015-12-17 10:51:15.713 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=-location:&rows=0} status=400 QTime=1 
+2015-12-17 10:51:23.017 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 10:51:25.894 INFO  (qtp303791137-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 10:51:25.938 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 10:51:26.463 ERROR (qtp303791137-17) [   x:projc] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field: "message"
+	at org.apache.solr.schema.IndexSchema.getField(IndexSchema.java:1229)
+	at org.apache.solr.request.SimpleFacets.getTermCounts(SimpleFacets.java:416)
+	at org.apache.solr.request.SimpleFacets.getTermCounts(SimpleFacets.java:385)
+	at org.apache.solr.request.SimpleFacets$3.call(SimpleFacets.java:628)
+	at org.apache.solr.request.SimpleFacets$3.call(SimpleFacets.java:619)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at org.apache.solr.request.SimpleFacets$2.execute(SimpleFacets.java:573)
+	at org.apache.solr.request.SimpleFacets.getFacetFieldCounts(SimpleFacets.java:644)
+	at org.apache.solr.handler.component.FacetComponent.getFacetCounts(FacetComponent.java:294)
+	at org.apache.solr.handler.component.FacetComponent.process(FacetComponent.java:256)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:277)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-12-17 10:51:26.463 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=100&facet.field=message&wt=json&fq=created_at:[NOW/MINUTE-15MINUTE+TO+NOW/MINUTE%2B1MINUTE]&rows=0} hits=0 status=400 QTime=4 
+2015-12-17 10:51:26.618 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={sort=id+desc&q=*&wt=json&fq=created_at:[NOW/MINUTE-15MINUTE+TO+NOW/MINUTE%2B1MINUTE]&rows=500} hits=0 status=0 QTime=4 
+2015-12-17 10:51:26.791 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=yoga&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=784 status=0 QTime=1 
+2015-12-17 10:51:28.282 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=yoga&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=784 status=0 QTime=0 
+2015-12-17 10:51:28.322 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=yoga&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=784 status=0 QTime=0 
+2015-12-17 10:51:28.404 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=yoga&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=784 status=0 QTime=61 
+2015-12-17 10:51:28.487 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=yoga&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=784 status=0 QTime=160 
+2015-12-17 10:51:28.561 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=yoga&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=784 status=0 QTime=226 
+2015-12-17 10:51:28.563 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=yoga+yoga+????+yoga+yoga&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1373 status=0 QTime=335 
+2015-12-17 10:51:31.247 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=NOW/MINUTE-15MINUTE&facet.range=created_at&facet.range.gap=%2B10SECOND&facet.range.end=NOW/MINUTE%2B1MINUTE&wt=json&fq=created_at:[NOW/MINUTE-15MINUTE+TO+NOW/MINUTE%2B1MINUTE]&rows=0} hits=0 status=0 QTime=18 
+2015-12-17 10:51:44.196 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=france&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=272 status=0 QTime=17 
+2015-12-17 10:51:44.856 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 10:51:45.024 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=france&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=272 status=0 QTime=0 
+2015-12-17 10:51:45.040 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=france&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=272 status=0 QTime=0 
+2015-12-17 10:51:45.054 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=france&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=272 status=0 QTime=2 
+2015-12-17 10:51:45.143 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=france&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=272 status=0 QTime=84 
+2015-12-17 10:51:45.158 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=france+france+???????+Frankreich+france&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=357 status=0 QTime=147 
+2015-12-17 10:51:45.259 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=france&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=272 status=0 QTime=228 
+2015-12-17 10:51:46.533 INFO  (qtp303791137-12) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=3 
+2015-12-17 10:51:46.570 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 10:51:46.918 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=7 
+2015-12-17 10:51:47.012 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=18 
+2015-12-17 10:51:48.969 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=0 
+2015-12-17 10:51:49.066 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=1 
+2015-12-17 10:51:50.341 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=3 
+2015-12-17 10:51:50.946 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=46 
+2015-12-17 10:51:51.105 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=5 
+2015-12-17 10:51:59.394 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=love+chennai&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1228 status=0 QTime=10 
+2015-12-17 10:52:00.214 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=love+chennai&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1228 status=0 QTime=1 
+2015-12-17 10:52:00.238 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=love+chennai+love+chennai+??????+chennai+Liebe+chennai+l'amour+chennai&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1335 status=0 QTime=36 
+2015-12-17 10:52:00.245 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=love+chennai&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1228 status=0 QTime=0 
+2015-12-17 10:52:00.253 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=love+chennai&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1228 status=0 QTime=2 
+2015-12-17 10:52:00.289 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=love+chennai&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1228 status=0 QTime=29 
+2015-12-17 10:52:00.296 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=love+chennai&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1228 status=0 QTime=75 
+2015-12-17 10:52:44.764 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=-location:""&rows=0} hits=15545 status=0 QTime=6 
+2015-12-17 10:52:48.886 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=love+chennai&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1228 status=0 QTime=0 
+2015-12-17 10:52:49.687 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=love+chennai&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1228 status=0 QTime=1 
+2015-12-17 10:52:49.699 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=love+chennai&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1228 status=0 QTime=0 
+2015-12-17 10:52:49.709 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=love+chennai&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1228 status=0 QTime=2 
+2015-12-17 10:52:49.729 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=love+chennai&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1228 status=0 QTime=25 
+2015-12-17 10:52:49.735 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=love+chennai+love+chennai+??????+chennai+Liebe+chennai+l'amour+chennai&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1335 status=0 QTime=56 
+2015-12-17 10:52:49.761 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=love+chennai&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1228 status=0 QTime=65 
+2015-12-17 10:53:23.330 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=pray+for+chennai&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1407 status=0 QTime=4 
+2015-12-17 10:53:24.208 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=pray+for+chennai&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1407 status=0 QTime=1 
+2015-12-17 10:53:24.209 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=pray+for+chennai&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1407 status=0 QTime=7 
+2015-12-17 10:53:24.217 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=pray+for+chennai&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1407 status=0 QTime=2 
+2015-12-17 10:53:24.274 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=pray+for+chennai+pray+for+chennai+??????+???+chennai+beten+for+chennai+prier+for+chennai&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1595 status=0 QTime=77 
+2015-12-17 10:53:24.285 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=pray+for+chennai&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1407 status=0 QTime=38 
+2015-12-17 10:53:24.291 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=pray+for+chennai&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1407 status=0 QTime=86 
+2015-12-17 10:53:36.480 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=pray+for+paris&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=2325 status=0 QTime=5 
+2015-12-17 10:53:37.441 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=pray+for+paris&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=2325 status=0 QTime=1 
+2015-12-17 10:53:37.462 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=pray+for+paris&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=2325 status=0 QTime=1 
+2015-12-17 10:53:37.471 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=pray+for+paris&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=2325 status=0 QTime=2 
+2015-12-17 10:53:37.475 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=pray+for+paris+pray+for+paris+??????+???+paris+beten+for+paris+prier+for+paris&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=2414 status=0 QTime=43 
+2015-12-17 10:53:37.515 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=pray+for+paris&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=2325 status=0 QTime=32 
+2015-12-17 10:53:37.525 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=pray+for+paris&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=2325 status=0 QTime=75 
+2015-12-17 10:53:45.634 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 10:53:48.193 INFO  (qtp303791137-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 10:53:48.216 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=0 
+2015-12-17 10:53:48.446 ERROR (qtp303791137-20) [   x:projc] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field: "message"
+	at org.apache.solr.schema.IndexSchema.getField(IndexSchema.java:1229)
+	at org.apache.solr.request.SimpleFacets.getTermCounts(SimpleFacets.java:416)
+	at org.apache.solr.request.SimpleFacets.getTermCounts(SimpleFacets.java:385)
+	at org.apache.solr.request.SimpleFacets$3.call(SimpleFacets.java:628)
+	at org.apache.solr.request.SimpleFacets$3.call(SimpleFacets.java:619)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at org.apache.solr.request.SimpleFacets$2.execute(SimpleFacets.java:573)
+	at org.apache.solr.request.SimpleFacets.getFacetFieldCounts(SimpleFacets.java:644)
+	at org.apache.solr.handler.component.FacetComponent.getFacetCounts(FacetComponent.java:294)
+	at org.apache.solr.handler.component.FacetComponent.process(FacetComponent.java:256)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:277)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-12-17 10:53:48.446 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=100&facet.field=message&wt=json&fq=created_at:[NOW/MINUTE-15MINUTE+TO+NOW/MINUTE%2B1MINUTE]&rows=0} hits=0 status=400 QTime=1 
+2015-12-17 10:53:48.538 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={sort=id+desc&q=*&wt=json&fq=created_at:[NOW/MINUTE-15MINUTE+TO+NOW/MINUTE%2B1MINUTE]&rows=500} hits=0 status=0 QTime=0 
+2015-12-17 10:53:51.387 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=NOW/MINUTE-15MINUTE&facet.range=created_at&facet.range.gap=%2B10SECOND&facet.range.end=NOW/MINUTE%2B1MINUTE&wt=json&fq=created_at:[NOW/MINUTE-15MINUTE+TO+NOW/MINUTE%2B1MINUTE]&rows=0} hits=0 status=0 QTime=6 
+2015-12-17 10:54:07.542 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 10:54:09.362 INFO  (qtp303791137-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 10:54:09.418 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 10:54:09.848 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=4 
+2015-12-17 10:54:09.990 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=36 
+2015-12-17 10:54:12.726 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=0 
+2015-12-17 10:54:12.887 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=1 
+2015-12-17 10:54:14.729 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 10:54:14.934 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=2 
+2015-12-17 10:54:15.552 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=21 
+2015-12-17 10:54:15.788 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=5 
+2015-12-17 10:54:17.322 INFO  (qtp303791137-12) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 10:54:17.372 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 10:54:17.603 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=1 
+2015-12-17 10:54:18.197 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=1 
+2015-12-17 10:54:18.882 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=2 
+2015-12-17 10:54:20.022 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=20 
+2015-12-17 10:54:20.100 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=5 
+2015-12-17 10:54:21.801 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=0 
+2015-12-17 10:54:21.921 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=27 
+2015-12-17 10:55:10.540 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=-location:""&rows=0} hits=15545 status=0 QTime=1 
+2015-12-17 10:55:30.610 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=1 
+2015-12-17 10:55:36.816 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=1 
+2015-12-17 10:55:40.277 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=1 
+2015-12-17 10:55:45.140 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=1 
+2015-12-17 10:56:08.690 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=1 
+2015-12-17 10:57:45.465 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=cancer&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1149 status=0 QTime=0 
+2015-12-17 10:57:46.637 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer+cancer+???+Krebs+le+cancer&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1400 status=0 QTime=10 
+2015-12-17 10:57:46.669 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=cancer&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=-location:""&rows=0} hits=707 status=0 QTime=1 
+2015-12-17 10:57:46.707 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1149 status=0 QTime=0 
+2015-12-17 10:57:46.710 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1149 status=0 QTime=26 
+2015-12-17 10:57:46.727 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1149 status=0 QTime=2 
+2015-12-17 10:57:46.733 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1149 status=0 QTime=15 
+2015-12-17 10:59:26.411 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 10:59:28.591 INFO  (qtp303791137-12) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 10:59:28.615 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 10:59:28.748 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=1 
+2015-12-17 10:59:28.894 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=1 
+2015-12-17 10:59:29.542 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=5 
+2015-12-17 10:59:30.902 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=20 
+2015-12-17 10:59:30.963 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=5 
+2015-12-17 10:59:33.062 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=0 
+2015-12-17 10:59:33.181 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=18 
+2015-12-17 10:59:42.011 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=0 
+2015-12-17 10:59:42.013 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=1 
+2015-12-17 10:59:42.017 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=1 
+2015-12-17 10:59:42.023 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=1 
+2015-12-17 10:59:42.028 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=2 
+2015-12-17 10:59:42.032 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=13 
+2015-12-17 10:59:42.100 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=54 
+2015-12-17 10:59:50.791 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=cancer&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1149 status=0 QTime=0 
+2015-12-17 10:59:52.174 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=cancer&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1149 status=0 QTime=0 
+2015-12-17 10:59:52.177 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer+cancer+???+Krebs+le+cancer&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1400 status=0 QTime=15 
+2015-12-17 10:59:52.186 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1149 status=0 QTime=0 
+2015-12-17 10:59:52.190 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1149 status=0 QTime=2 
+2015-12-17 10:59:52.206 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1149 status=0 QTime=15 
+2015-12-17 10:59:52.213 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=1149 status=0 QTime=33 
+2015-12-17 11:00:50.117 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 11:00:52.061 INFO  (qtp303791137-12) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 11:00:52.088 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 11:00:52.637 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&hl.fl=text&wt=json&hl=true&rows=25} hits=25088 status=0 QTime=1 
+2015-12-17 11:00:52.716 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=4 
+2015-12-17 11:00:53.098 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=2 
+2015-12-17 11:00:53.788 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=1 
+2015-12-17 11:00:53.857 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=20 
+2015-12-17 11:00:56.743 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=0 
+2015-12-17 11:00:56.897 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=20 
+2015-12-17 11:01:18.808 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer+cancer+???+Krebs+le+cancer&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&facet.field=location&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1400 status=0 QTime=33 
+2015-12-17 11:02:38.556 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer+cancer+???+Krebs+le+cancer&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1400 status=0 QTime=9 
+2015-12-17 11:02:43.833 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer+cancer+???+Krebs+le+cancer&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1400 status=0 QTime=13 
+2015-12-17 11:02:50.359 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer+cancer+???+Krebs+le+cancer&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Company&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1400 status=0 QTime=7 
+2015-12-17 11:02:57.204 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 11:03:00.602 INFO  (qtp303791137-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 11:03:00.626 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 11:03:01.115 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer+cancer+???+Krebs+le+cancer&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Company&facet.field=Person&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1400 status=0 QTime=11 
+2015-12-17 11:03:07.408 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer+cancer+???+Krebs+le+cancer&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Company&facet.field=Person&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1400 status=0 QTime=11 
+2015-12-17 11:03:43.152 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=cancer+cancer+???+Krebs+le+cancer&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Company&facet.field=Person&facet.field=City&facet.field=Hashtag&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=1400 status=0 QTime=15 
+2015-12-17 11:04:06.733 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=hello&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=8 status=0 QTime=0 
+2015-12-17 11:04:07.461 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=hello+hello+??????+Hallo+bonjour&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Company&facet.field=Person&facet.field=City&facet.field=Hashtag&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=33 status=0 QTime=14 
+2015-12-17 11:04:07.480 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=hello&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=-location:""&rows=0} hits=4 status=0 QTime=1 
+2015-12-17 11:04:07.504 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=hello&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=8 status=0 QTime=0 
+2015-12-17 11:04:07.515 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=hello&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=8 status=0 QTime=5 
+2015-12-17 11:04:07.525 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=hello&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=8 status=0 QTime=2 
+2015-12-17 11:04:07.540 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=hello&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=8 status=0 QTime=14 
+2015-12-17 11:04:37.305 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=paris+attacks&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=2329 status=0 QTime=1 
+2015-12-17 11:04:38.100 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=paris+attacks&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=2329 status=0 QTime=17 
+2015-12-17 11:04:38.102 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=paris+attacks&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=2329 status=0 QTime=0 
+2015-12-17 11:04:38.108 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=paris+attacks&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&fq=-location:""&rows=0} hits=1513 status=0 QTime=5 
+2015-12-17 11:04:38.118 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=paris+attacks&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=2329 status=0 QTime=2 
+2015-12-17 11:04:38.130 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=paris+attacks+paris+attacks+?????+attacks+paris+attacks+paris+attacks&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Company&facet.field=Person&facet.field=City&facet.field=Hashtag&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=2746 status=0 QTime=50 
+2015-12-17 11:04:38.165 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=paris+attacks&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=2329 status=0 QTime=22 
+2015-12-17 11:05:34.379 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*q%3D*&hl.fl=text&wt=json&hl=true&rows=25} hits=0 status=0 QTime=111 
+2015-12-17 11:08:58.314 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 11:09:01.379 INFO  (qtp303791137-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 11:09:01.423 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 11:09:01.783 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=13 
+2015-12-17 11:11:39.441 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*q%3D*&hl.fl=text&wt=json&hl=true&rows=25} hits=0 status=0 QTime=14 
+2015-12-17 11:13:36.791 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 11:13:39.397 INFO  (qtp303791137-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 11:13:39.418 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 11:13:39.640 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=1 
+2015-12-17 11:13:39.721 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=0 status=0 QTime=2 
+2015-12-17 11:13:40.940 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=2 
+2015-12-17 11:13:43.501 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=43 
+2015-12-17 11:13:43.610 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=5 
+2015-12-17 11:13:46.446 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=0 
+2015-12-17 11:13:46.629 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=52 
+2015-12-17 11:14:39.007 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 11:14:41.725 INFO  (qtp303791137-12) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 11:14:41.731 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 11:14:41.935 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=1 
+2015-12-17 11:14:42.546 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*q%3D*&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=7 status=0 QTime=14 
+2015-12-17 11:14:44.791 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=2 
+2015-12-17 11:14:46.029 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=21 
+2015-12-17 11:14:46.157 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=5 
+2015-12-17 11:14:46.251 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=0 
+2015-12-17 11:14:48.615 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=32 
+2015-12-17 11:21:21.668 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 11:21:23.897 INFO  (qtp303791137-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={omitHeader=true&action=STATUS&wt=json} status=0 QTime=1 
+2015-12-17 11:21:23.914 INFO  (qtp303791137-16) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/admin/luke params={numTerms=0&wt=json} status=0 QTime=1 
+2015-12-17 11:21:24.130 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet.missing=true&facet=true&q=*&facet.limit=10&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=1 
+2015-12-17 11:21:24.199 INFO  (qtp303791137-15) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&qf=text_en+text_ru^10+text_de^1000+text_fr^10&hl.fl=text&facet.field=text&facet.field=lang&facet.field=location&facet.field=screen_name&facet.field=Country&facet.field=Person&facet.field=Company&facet.field=City&wt=json&hl=true&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=25&defType=dismax} hits=0 status=0 QTime=2 
+2015-12-17 11:21:25.659 INFO  (qtp303791137-17) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=1000000&facet.field=location&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=29 
+2015-12-17 11:21:28.201 INFO  (qtp303791137-20) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=300&facet.pivot.mincount=0&wt=json&facet.pivot=lang,tweet_hashtags&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=20 
+2015-12-17 11:21:28.329 INFO  (qtp303791137-13) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.limit=10&facet.field=tweet_hashtags&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=5 
+2015-12-17 11:21:31.103 INFO  (qtp303791137-14) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={q=*&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=0 
+2015-12-17 11:21:31.216 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=*&facet.range.start=2015-11-23T22:19:52.000Z&facet.range=created_at&facet.range.gap=%2B3HOUR&facet.range.end=2015-12-12T22:17:57.000Z&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=25088 status=0 QTime=26 
+2015-12-17 11:23:29.669 INFO  (qtp303791137-19) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=paris+attacks&facet.limit=1000000&facet.field=Country&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=2329 status=0 QTime=1 
+2015-12-17 11:24:01.825 INFO  (qtp303791137-12) [   x:projc] o.a.s.c.S.Request [projc] webapp=/solr path=/select params={facet=true&q=paris+attacks&facet.limit=1000000&facet.field=Country&wt=json&fq=created_at:[2015-11-23T22:19:52.000Z+TO+2015-12-12T22:17:57.000Z]&rows=0} hits=2329 status=0 QTime=1 
+2015-12-17 12:12:29.971 INFO  (Thread-0) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@513e5f5a{HTTP/1.1}{0.0.0.0:8983}
+2015-12-17 12:12:29.971 INFO  (Thread-0) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1538625637
+2015-12-17 12:12:29.971 INFO  (Thread-0) [   x:projc] o.a.s.c.SolrCore [projc]  CLOSING SolrCore org.apache.solr.core.SolrCore@2daa4de4
+2015-12-17 12:12:29.972 INFO  (Thread-0) [   x:projc] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=6,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=1,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=48584,cumulative_deletesById=0,cumulative_deletesByQuery=1,cumulative_errors=0,transaction_logs_total_size=1322043,transaction_logs_total_number=1}
+2015-12-17 12:12:29.974 INFO  (Thread-0) [   x:projc] o.a.s.u.SolrCoreState Closing SolrCoreState
+2015-12-17 12:12:29.974 INFO  (Thread-0) [   x:projc] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2015-12-17 12:12:29.974 INFO  (Thread-0) [   x:projc] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2015-12-17 12:12:29.977 INFO  (Thread-0) [   x:projc] o.a.s.c.SolrCore [projc] Closing main searcher on request.
+2015-12-17 12:12:30.006 INFO  (Thread-0) [   x:projc] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2015-12-17 12:12:30.007 INFO  (Thread-0) [   x:projc] o.a.s.c.CachingDirectoryFactory looking to close /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data [CachedDir<<refCount=0;path=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data;done=false>>]
+2015-12-17 12:12:30.007 INFO  (Thread-0) [   x:projc] o.a.s.c.CachingDirectoryFactory Closing directory: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data
+2015-12-17 12:12:30.007 INFO  (Thread-0) [   x:projc] o.a.s.c.CachingDirectoryFactory looking to close /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index [CachedDir<<refCount=0;path=/home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index;done=false>>]
+2015-12-17 12:12:30.007 INFO  (Thread-0) [   x:projc] o.a.s.c.CachingDirectoryFactory Closing directory: /home/padidelavamshikrishna/solr/solr-5.3.0/projc/solr/projc/data/index
+2015-12-17 12:12:30.009 INFO  (Thread-0) [   x:projc] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@596e1d6b{/solr,file:/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp/,UNAVAILABLE}{/home/padidelavamshikrishna/solr/solr-5.3.0/server/solr-webapp/webapp}
